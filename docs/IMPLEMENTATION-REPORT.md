@@ -93,6 +93,14 @@ Automatic approval review rejected a proposed external source-validation upload.
 
 ## Production readiness and local use
 
+### Premium presentation follow-up
+
+The local presentation now uses warm ivory and sage surfaces, the established navy identity, restrained brass accents and system serif display typography. The hero has a framed product composition, clearer actions and a separated trust line. Category imagery, product cards, welcome-kit pricing, budget browsing, benefit icons, process steps, occasion cards, testimonials, discovery controls, catalogue finishes, brand references, resource cards, product details and quotation surfaces share this direction. Existing content, image qualifications, package prices and enquiry behavior remain in place.
+
+This is a CSS-only refinement in `src/routes/improvements.css`, with no new dependencies, fonts, image downloads, business claims or submission integrations. Genuine photography, model data, case studies, approved policies, real enquiry receipt and production performance validation remain the launch inputs listed above. Earlier resource comparisons describe the preceding implementation; they are not fresh measurements of this presentation pass.
+
+Validation for this follow-up: Svelte check reported zero errors/warnings, all 14 unit tests passed, and the production build passed. The HTTP smoke check passed for 50 routes, 50 internal links and 52 image sources. Browser inspection covered 35 page/viewport combinations across homepage, products, product detail, catalogues, brands, insights and contact at requested widths 320, 390, 768, 1024 and 1440. All had no horizontal overflow or broken completed image sources. Product search, add-to-quote, quantity editing and mobile menu Escape/focus return were exercised, with no captured browser errors/warnings in that flow. Screenshots and responsive results are saved under `output/validation/premium-*`. No Svelte component source was changed in this pass.
+
 The updated project is ready for local review and builds successfully. It is not certified as fully launch-validated: inbox delivery, full Drive availability, business evidence/policies and production performance need the checks above. No public lead storage, uploads, stock feed or authentication infrastructure was invented to hide those gaps.
 
 Exact installation, build, test and preview commands are in the root `README.md`. The user-facing local preview remains on http://127.0.0.1:5174/.
