@@ -17,12 +17,13 @@
 								loading="lazy"
 							/>{/each}
 						<h3>{project.client}</h3>
+						{#if project.projectType}<p class="eyebrow">{project.projectType}</p>{/if}
 						<p>{project.requirement}</p>
 						<dl>
 							<dt>Products</dt>
 							<dd>{project.products.join(', ')}</dd>
-							<dt>Quantity</dt>
-							<dd>{project.quantity}</dd>
+							{#if project.quantity}<dt>Quantity</dt>
+							<dd>{project.quantity}</dd>{/if}
 							<dt>Branding</dt>
 							<dd>{project.branding}</dd>
 							<dt>Timeline</dt>
@@ -30,7 +31,7 @@
 							<dt>Delivery</dt>
 							<dd>{project.deliveryLocation}</dd>
 						</dl>
-						<p>{project.outcome}</p>
+						{#if project.outcome}<p>{project.outcome}</p>{/if}
 					</article>{/each}
 			</div>
 		</div>

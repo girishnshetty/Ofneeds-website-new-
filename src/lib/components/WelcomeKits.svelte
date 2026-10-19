@@ -1,4 +1,5 @@
 <script lang="ts">
+ import { resolve } from '$app/paths';
 	import { welcomeKits } from '$lib/data/legacy';
 	import { photography } from '$lib/data/photography';
 	import Icon from './Icon.svelte';
@@ -10,7 +11,7 @@
 			<p class="eyebrow">A great first impression</p>
 			<h2>Employee<br /> Welcome Kits</h2>
 			<p>Custom onboarding kits designed around your budget, brand and employee experience.</p>
-			<a class="text-link" href="/employee-welcome-kits-bangalore"
+			<a class="text-link" href={resolve("/employee-welcome-kits-bangalore")}
 				>Explore welcome kits <Icon size={18} /></a
 			>
 			<figure class="kit-photo">
@@ -42,7 +43,7 @@
 						</ul>
 						<a
 							class={i === 1 ? 'button button-white' : 'button button-outline'}
-							href="/contact#quote">Customize My Welcome Kit <Icon size={16} /></a
+							href={resolve(('/products/welcome-kit-' + (i + 1)) as `/${string}`)}>Customize My Welcome Kit <Icon size={16} /></a
 						>
 					</article>{/each}
 			</div>
@@ -51,7 +52,7 @@
 					<h3>Premium &amp; Build Your Own Kit</h3>
 					<p>A tailored product mix, branding and packaging. Priced to your brief.</p>
 				</div>
-				<a class="text-link" href="/custom-gift-sets">Talk to our team <Icon size={17} /></a>
+				<a class="text-link" href={resolve("/products")}>Build Your Own Kit <Icon size={17} /></a>
 			</div>
 			<p class="fineprint">
 				Existing package prices shown. Confirm product specifications, branding, taxes, packaging

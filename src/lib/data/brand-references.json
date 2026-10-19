@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Puma",
+    "slug": "puma",
+    "categories": [
+      "Apparel"
+    ],
+    "sourceIds": [
+      "1d2PaD9vdt-DRMnOWwR1j7Oih_DTdqZcE",
+      "19ZrpzLeceNi_S4k0R6Rttuw7MomDxcCA",
+      "1yNLwFeJIR4E2z41TFforz2KufHa8_vyr",
+      "1gmDWf4OXWYgkEJvFxR5g8p_3QIHc24or"
+    ],
+    "authorization": "not-recorded",
+    "availability": "confirm-per-enquiry"
+  },
+  {
+    "name": "HRX",
+    "slug": "hrx",
+    "categories": [
+      "Bags"
+    ],
+    "sourceIds": [
+      "1xrOYv2a7VAZtL-b0_XIoR0UbJfghjzwA",
+      "1hTF5WhhpVEZjDH-vFCXlsqx7QwCq4l-N"
+    ],
+    "authorization": "not-recorded",
+    "availability": "confirm-per-enquiry"
+  },
+  {
+    "name": "Bugatti",
+    "slug": "bugatti",
+    "categories": [
+      "Apparel"
+    ],
+    "sourceIds": [
+      "1X4MHnM8y1PqgieC3ooNZMEG0tEX_pv2X"
+    ],
+    "authorization": "not-recorded",
+    "availability": "confirm-per-enquiry"
+  },
+  {
+    "name": "Monte Carlo",
+    "slug": "monte-carlo",
+    "categories": [
+      "Apparel"
+    ],
+    "sourceIds": [
+      "1bruja9uHU37jt11WbCqbv4ZFIzHjNFIa"
+    ],
+    "authorization": "not-recorded",
+    "availability": "confirm-per-enquiry"
+  },
+  {
+    "name": "Rare Rabbit",
+    "slug": "rare-rabbit",
+    "categories": [
+      "Apparel"
+    ],
+    "sourceIds": [
+      "1HAyLy6TzL8Xlbft65furd2KYVpGVI5e8"
+    ],
+    "authorization": "not-recorded",
+    "availability": "confirm-per-enquiry"
+  },
+  {
+    "name": "Reebok",
+    "slug": "reebok",
+    "categories": [
+      "Apparel"
+    ],
+    "sourceIds": [
+      "1OdFldLnpwvUrO6TZyTlQT4vR1xFfGISI"
+    ],
+    "authorization": "not-recorded",
+    "availability": "confirm-per-enquiry"
+  },
+  {
+    "name": "Mivi",
+    "slug": "mivi",
+    "categories": [
+      "Tech & Gadgets"
+    ],
+    "sourceIds": [
+      "1GcZlZzG6dv7EwfshOfY6OFvTMGY8MMgb"
+    ],
+    "authorization": "not-recorded",
+    "availability": "confirm-per-enquiry"
+  },
+  {
+    "name": "Noise",
+    "slug": "noise",
+    "categories": [
+      "Tech & Gadgets"
+    ],
+    "sourceIds": [
+      "1LIz9O8raX0JEcQHjojxbGzln2KgZq5Du"
+    ],
+    "authorization": "not-recorded",
+    "availability": "confirm-per-enquiry"
+  },
+  {
+    "name": "Sheaffer",
+    "slug": "sheaffer",
+    "categories": [
+      "Pens"
+    ],
+    "sourceIds": [
+      "1WuyXLTiVn-669p3uUzhEcxOdlSv-gMyR"
+    ],
+    "authorization": "not-recorded",
+    "availability": "confirm-per-enquiry"
+  },
+  {
+    "name": "Havells",
+    "slug": "havells",
+    "categories": [
+      "Home & Appliances"
+    ],
+    "sourceIds": [
+      "1Kk6z1cT-uihjNQoaZw0dA3cRO98f8BBU"
+    ],
+    "authorization": "not-recorded",
+    "availability": "confirm-per-enquiry"
+  },
+  {
+    "name": "Tommy Hilfiger",
+    "slug": "tommy-hilfiger",
+    "categories": [
+      "Bags"
+    ],
+    "sourceIds": [
+      "12fyEcWghIoHHgizIukxZrYeKkQBizS-0"
+    ],
+    "authorization": "not-recorded",
+    "availability": "confirm-per-enquiry"
+  },
+  {
+    "name": "Skechers",
+    "slug": "skechers",
+    "categories": [
+      "Apparel",
+      "Footwear"
+    ],
+    "sourceIds": [
+      "1bS-uVrSlq9zCg8KZmcabiwT8hbhMudYh",
+      "14Sv-up-j9m1LAbY99A35qF2TkfFUU_N1"
+    ],
+    "authorization": "not-recorded",
+    "availability": "confirm-per-enquiry"
+  }
+]

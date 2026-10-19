@@ -39,7 +39,7 @@
 	aria-roledescription="carousel"
 	aria-label="OfNeeds gifting inspiration"
 >
-	<div class="hero-image-frame carousel-frame" bind:this={frame}>
+	<div class="hero-image-frame carousel-frame" {@attach (element) => { frame = element; return () => { frame = undefined; }; }}>
 		<div class="hero-image-stage">
 		{#each heroSlides as item, index (item.key)}
 			<div

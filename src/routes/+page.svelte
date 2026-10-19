@@ -1,4 +1,5 @@
 <script lang="ts">
+ import { resolve } from '$app/paths';
 	import Seo from '$lib/components/Seo.svelte';
 	import GiftingSolutions from '$lib/components/GiftingSolutions.svelte';
 	import Icon from '$lib/components/Icon.svelte';
@@ -10,6 +11,8 @@
 	import QuoteForm from '$lib/components/QuoteForm.svelte';
 	import CaseStudies from '$lib/components/CaseStudies.svelte';
 	import Brands from '$lib/components/Brands.svelte';
+	import ProductGrid from '$lib/components/ProductGrid.svelte';
+	import { productSelections, budgetRanges } from '$lib/data/products';
 
 	import {
 		homeTitle,
@@ -17,62 +20,34 @@
 		benefits,
 		steps,
 		serviceAreas,
-		faqs,
 		whatsappUrl,
-		site
 	} from '$lib/data/site';
-	import { welcomeKits } from '$lib/data/legacy';
 	let { data } = $props();
-	const extra = [
-		{
-			'@type': 'FAQPage',
-			mainEntity: faqs.map((faq) => ({
-				'@type': 'Question',
-				name: faq.question,
-				acceptedAnswer: { '@type': 'Answer', text: faq.answer }
-			}))
-		},
-		...welcomeKits.map((kit) => ({
-			'@type': 'Product',
-			name: 'OfNeeds ' + kit.name + ' Employee Welcome Kit',
-			image: site.origin + '/optimized/hero-1066.webp',
-			url: site.origin + '/employee-welcome-kits-bangalore',
-			description: kit.inclusions.join(', '),
-			brand: { '@type': 'Brand', name: 'OfNeeds' },
-			offers: {
-				'@type': 'Offer',
-				price: kit.price.replace('₹', ''),
-				priceCurrency: 'INR',
-				url: site.origin + '/employee-welcome-kits-bangalore'
-			}
-		}))
-	];
 </script>
 
-<Seo title={homeTitle} description={homeDescription} {extra} />
+<Seo title={homeTitle} description={homeDescription} />
 <section id="home" class="hero">
-	<div class="container hero-copy-only">
+	<div class="container enterprise-hero-grid">
 		<div class="hero-copy">
-			<p class="hero-tagline">
-				Thoughtfully chosen. Beautifully branded.
-			</p>
-			<h1>One Platform for <span>Branded Merchandise</span></h1>
+			<p class="eyebrow">OfNeeds · Corporate gifting &amp; merchandise</p>
+			<h1>Corporate Gifting<br /><span>Made Simple.</span></h1>
 			<p class="hero-description">
-				Create a seamless branded merchandise experience for your team and clients. From curated products and custom branding to easy ordering, competitive pricing, and reliable delivery  everything managed in one place.
+				Premium employee welcome kits, customized corporate gifts and branded merchandise for businesses across Bangalore and India.
 			</p>
 			<div class="hero-actions">
 				<a class="button" href="#contact">Get Corporate Quote <Icon size={18} /></a><a
 					class="button button-outline"
-					href="#products">Explore Products <Icon size={18} /></a
+					href={resolve("/products")}>Explore Products <Icon size={18} /></a
 				>
 			</div>
-			<a class="hero-whatsapp" href={whatsappUrl()} target="_blank" rel="noopener noreferrer"
+			<a class="hero-whatsapp" href={whatsappUrl()} target="_blank" rel="external noopener noreferrer"
 				>Or start a conversation on WhatsApp <Icon size={15} /></a
 			>
 			<p class="hero-trust">
 				Bengaluru Based <span>•</span> Custom Branding <span>•</span> Bulk Orders
 			</p>
 		</div>
+		<figure class="enterprise-hero-visual"><img src="/hero-carousel/branded-signature-800.webp" srcset="/hero-carousel/branded-signature-480.webp 480w, /hero-carousel/branded-signature-800.webp 800w, /hero-carousel/branded-signature-1254.webp 1254w" sizes="(max-width: 760px) 90vw, 44vw" width="1254" height="1254" alt="Illustrative navy gift box, notebook, pen and mug with coordinated custom branding" fetchpriority="high" /><figcaption><span>Thoughtful products. Your brand.</span><small>Illustrative concept · tailored to your brief</small></figcaption></figure>
 	</div>
 </section>
 <Clients />
@@ -89,10 +64,12 @@
 			</p>
 		</div>
 		<CategoryGrid />
-		<a class="button button-outline" href="/catalogues" style="margin-top: 28px">Browse &amp; Download Catalogues <Icon size={18} /></a>
+		<a class="button button-outline" href={resolve("/catalogues")} style="margin-top: 28px">Browse &amp; Download Catalogues <Icon size={18} /></a>
 	</div>
 </section>
+<section class="section section-muted"><div class="container"><div class="section-heading"><div><p class="eyebrow">A useful place to start</p><h2>Everyday essentials.<br />Lasting impressions.</h2></div><a class="text-link" href={resolve("/products")}>Explore all selections <Icon size={18} /></a></div><ProductGrid items={[productSelections[0], productSelections[4], productSelections[1]]} /></div></section>
 <WelcomeKits />
+<section class="section budget-section"><div class="container"><div class="section-heading"><div><p class="eyebrow">Plan with a clear budget</p><h2>Thoughtful at every scale.</h2></div><p>Start with a per-person budget. We’ll confirm the right products and complete costs in your quote.</p></div><div class="budget-grid">{#each budgetRanges as range (range.id)}<a href={resolve(('/products?budget=' + range.id) as `/${string}`)}><span>Per recipient</span><h3>{range.label}</h3><span class="text-link">Explore options <Icon size={16} /></span></a>{/each}</div><p class="fineprint">Only advertised package prices appear in budget results. For a wider selection, <a href={resolve("/contact#quote")}>request options within your budget</a>.</p></div></section>
 <section id="why-ofneeds" class="section">
 	<div class="container">
 		<div class="section-heading">
@@ -118,7 +95,7 @@
 				<p class="eyebrow">Less coordination. More clarity.</p>
 				<h2>Corporate Gifting<br /> Made Simple</h2>
 			</div>
-			<a class="button button-white" href="/contact#quote"
+			<a class="button button-white" href={resolve("/contact#quote")}
 				>Share Your Requirement <Icon size={18} /></a
 			>
 		</div>
@@ -131,13 +108,13 @@
 		</ol>
 	</div>
 </section>
-<CaseStudies /><Brands /><Testimonials />
+<CaseStudies /><Brands compact /><GiftingSolutions /><Testimonials />
 <section class="section local-section">
 	<div class="container local-layout">
 		<div>
 			<p class="eyebrow">Rooted in Bengaluru. Reaching across India.</p>
 			<h2>Corporate Gifting<br /> Company in Bangalore</h2>
-			<a class="text-link" href="/corporate-gifting-bangalore"
+			<a class="text-link" href={resolve("/corporate-gifting-bangalore")}
 				>Gifting for your Bengaluru team <Icon size={18} /></a
 			>
 		</div>
@@ -157,27 +134,6 @@
 		</div>
 	</div>
 </section>
-<GiftingSolutions />
 
 <Faq />
 <div id="contact"><QuoteForm enabled={data.quoteEnabled} /></div>
-
-<style>
-	.hero-copy-only .hero-copy {
-		max-width: 760px;
-		margin-inline: auto;
-		text-align: center;
-	}
-	.hero-copy-only h1 {
-		max-width: 760px;
-		margin-inline: auto;
-	}
-	.hero-copy-only .hero-description {
-		max-width: 700px;
-		margin-inline: auto;
-	}
-	.hero-copy-only .hero-actions,
-	.hero-copy-only .hero-trust {
-		justify-content: center;
-	}
-</style>

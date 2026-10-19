@@ -6,7 +6,7 @@ export const organization: Schema = {
     '@type': 'Organization', '@id': site.origin + '/#organization',
     name: site.name, url: site.origin + '/', foundingDate: site.founded,
     description: 'Bengaluru corporate gifting company providing branded merchandise, employee welcome kits and custom gift sets with delivery across India.',
-    logo: { '@type': 'ImageObject', url: site.origin + site.navbarLogo, width: 4096, height: 1342 },
+    logo: { '@type': 'ImageObject', url: site.origin + site.navbarLogo, width: 2172, height: 724 },
     email: site.email, telephone: site.phoneLink,
     address: { '@type': 'PostalAddress', addressLocality: 'Bengaluru', addressRegion: 'Karnataka', addressCountry: 'IN' },
     areaServed: { '@type': 'Country', name: 'India' },
@@ -33,3 +33,4 @@ export const faqSchema = (faqs: { question: string; answer: string }[]): Schema 
 });
 export const jsonLd = (schemas: Schema[]) =>
     JSON.stringify({ '@context': 'https://schema.org', '@graph': schemas }).replace(/</g, '\\u003c');
+export const jsonLdScript = (schemas: Schema[]) => `<script type="application/ld+json">${jsonLd(schemas)}</script>`;

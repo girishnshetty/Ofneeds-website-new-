@@ -3,6 +3,7 @@ import { contentPages } from '$lib/data/pages';
 import { brands, articles } from '$lib/data/editorial';
 import { canonical } from '$lib/seo';
 import { seoFor } from '$lib/data/seo-pages';
+import { productSelections } from '$lib/data/products';
 import type { RequestHandler } from './$types';
 const escapeXml = (value: string) =>
 	value.replace(
@@ -16,6 +17,8 @@ export const GET: RequestHandler = () => {
 		'/',
 		'/contact',
 		'/catalogues',
+		'/products',
+		...productSelections.map((product) => product.href),
 		...landingPages.map((page) => '/' + page.slug),
 		...Object.keys(contentPages).map((slug) => '/' + slug),
 		...brands.filter((brand) => brand.verified).map((brand) => '/brands/' + brand.slug),

@@ -1,4 +1,5 @@
 <script lang="ts">
+ import { resolve } from '$app/paths';
 	import { page } from '$app/state';
 	import Seo from '$lib/components/Seo.svelte';
 	import Icon from '$lib/components/Icon.svelte';
@@ -17,9 +18,9 @@
 		</h1>
 		<p>Explore our gifting range or get in touch with the OfNeeds team.</p>
 		<div class="hero-actions">
-			<a class="button" href="/">Back to Home <Icon size={18} /></a><a
+			<a class="button" href={resolve("/")}>Back to Home <Icon size={18} /></a><a
 				class="button button-outline"
-				href="/contact">Contact Us</a
+				href={resolve("/contact")}>Contact Us</a
 			>
 		</div>
 	</div>

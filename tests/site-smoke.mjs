@@ -73,7 +73,7 @@ assert.ok(!robots.includes('Disallow: /'));
 const home = documents.get('/');
 assert.ok(home.includes('tally.so/r/OD0ZV7'));
 assert.ok(home.includes('wa.me/917090795666'));
-assert.ok(home.includes('₹599') && home.includes('₹1099'));
+assert.ok(home.includes('₹499') && home.includes('₹999'));
 for (const name of [
 	'Gladwin Bosco',
 	'Krishna Murthy',
@@ -81,8 +81,7 @@ for (const name of [
 	'Prashanth',
 	'Pallavi',
 	'Anand Sunkad',
-	'Palanisamy Kumarasamy',
-	'Vinod'
+	'Palanisamy Kumarasamy'
 ])
 	assert.ok(home.includes(name), 'Preserved testimonial: ' + name);
 for (const route of [
@@ -94,6 +93,9 @@ for (const route of [
 	assert.equal(response.status, 404, route);
 	assert.ok((await response.text()).includes('noindex, follow'));
 }
+const reviews = [...home.matchAll(/<blockquote>(.*?)<\/blockquote>/gs)].map((match) => match[1]);
+assert.equal(reviews.length, 7, 'Seven distinct reviews');
+assert.equal(new Set(reviews).size, reviews.length, 'No repeated testimonial text');
 const queryHome = await (await fetch(base + '/?utm_source=test')).text();
 assert.ok(queryHome.includes('rel="canonical" href="https://www.ofneeds.com/"'));
 const trailing = await fetch(base + '/corporate-drinkware/', { redirect: 'manual' });

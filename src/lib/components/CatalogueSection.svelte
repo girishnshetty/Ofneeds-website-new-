@@ -1,4 +1,5 @@
 <script lang="ts">
+ import { resolve } from '$app/paths';
  import { catalogueForCategory, catalogueGroupsFor } from '$lib/data/catalogues';
  let { slug }: { slug: string } = $props();
  const groups = $derived(catalogueGroupsFor(slug));
@@ -7,10 +8,10 @@
 {#if selections.length}
 <section class="section section-muted">
  <div class="container">
-  <div class="section-heading"><div><p class="eyebrow">A closer look at the range</p><h2>Explore the Catalogues</h2></div><a class="text-link" href="/catalogues">View all catalogues →</a></div>
+  <div class="section-heading"><div><p class="eyebrow">A closer look at the range</p><h2>Explore the Catalogues</h2></div><a class="text-link" href={resolve("/catalogues")}>View all catalogues →</a></div>
   <div class="catalogue-selections">
    {#each selections as file (file.id)}
-    <a class="catalogue-selection" href={'/catalogues?category=' + encodeURIComponent(file.category)}>
+    <a class="catalogue-selection" href={resolve(('/catalogues?category=' + encodeURIComponent(file.category)) as `/${string}`)}>
      {#if file.hasCover}<img src={file.image} alt={file.alt} width={file.width} height={file.height} loading="lazy" decoding="async" />{:else}<div class="catalogue-placeholder">{file.format} catalogue</div>{/if}
      <h3>{file.category}</h3><span>Browse the collection →</span>
     </a>

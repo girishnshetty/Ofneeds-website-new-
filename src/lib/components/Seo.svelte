@@ -2,7 +2,7 @@
     import { page } from '$app/state';
     import { site } from '$lib/data/site';
     import { seoFor } from '$lib/data/seo-pages';
-    import { canonical, jsonLd, organization, website, breadcrumbs, faqSchema, type Schema } from '$lib/seo';
+    import { canonical, jsonLdScript, organization, website, breadcrumbs, faqSchema, type Schema } from '$lib/seo';
     let { title, description, extra = [], crumb, noindex = false, image }: {
         title: string; description: string; extra?: Schema[]; crumb?: string; noindex?: boolean;
         image?: { src: string; srcset?: string; width: number; height: number; alt: string };
@@ -58,5 +58,6 @@
     <meta name="twitter:description" content={resolvedDescription} />
     <meta name="twitter:image" content={site.origin + social.src} />
     <meta name="twitter:image:alt" content={social.alt} />
-    {@html `<script type="application/ld+json">${jsonLd(schemas)}</script>`}
+    <!-- eslint-disable-next-line svelte/no-at-html-tags -- Fixed JSON-LD wrapper; the serializer escapes every less-than character in the JSON payload. -->
+    {@html jsonLdScript(schemas)}
 </svelte:head>

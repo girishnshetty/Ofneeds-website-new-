@@ -1,4 +1,5 @@
 <script lang="ts">
+ import { resolve } from '$app/paths';
 	import type { Photography } from '$lib/data/photography';
 	let {
 		title,
@@ -21,14 +22,14 @@
 <section class="page-intro">
 	<div class="container">
 		<nav class="breadcrumbs" aria-label="Breadcrumb">
-			<a href="/">Home</a><span aria-hidden="true">/</span><span aria-current="page">{title}</span>
+			<a href={resolve("/")}>Home</a><span aria-hidden="true">/</span><span aria-current="page">{title}</span>
 		</nav>
 		<div class:has-image={Boolean(image)} class="page-intro-grid">
 			<div>
 				<p class="eyebrow" class:brand-eyebrow={eyebrow.includes('OfNeeds')}>{eyebrow}</p>
 				<h1>{title}</h1>
 				<p class="lead">{description}</p>
-				<a class="button" href="/contact#quote">Get Corporate Quote <Icon size={18} /></a>
+				<a class="button" href={resolve("/contact#quote")}>Get Corporate Quote <Icon size={18} /></a>
 			</div>
 			{#if image}<div class="page-intro-image" class:photographic={Boolean(photo)}>
 					<img

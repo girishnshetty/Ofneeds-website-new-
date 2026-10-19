@@ -1,0 +1,187 @@
+{
+  "auditedAt": "2026-10-19",
+  "remoteMetadataLastCheckedAt": "2026-10-05",
+  "limitation": "Current Google Drive permissions and complete PDF contents were not verified. Matching covers and displayed sizes establish possible duplicates only. Original source records are retained.",
+  "counts": {
+    "sourceFiles": 97,
+    "historicallyDownloadable": 90,
+    "historicalZeroByte": 7,
+    "localCovers": 84
+  },
+  "unavailable": [
+    {
+      "id": "11Iiq0t5jKwKdbTFnGaK9gREj6_gOdPoY",
+      "name": "Cacao Springs Brochure 2025.pdf",
+      "reason": "Zero-byte file in 5 October source audit",
+      "action": "Hide download; request a replacement copy"
+    },
+    {
+      "id": "10VM8ui4TY3HeL7WPJJa83xlKMVfEm495",
+      "name": "Cacao Springs Festive Brochure.pdf",
+      "reason": "Zero-byte file in 5 October source audit",
+      "action": "Hide download; request a replacement copy"
+    },
+    {
+      "id": "18fN0lcjbq_mD22zTqICeqoEmhtA8MeQ5",
+      "name": "GODS Catalog 2025.pdf",
+      "reason": "Zero-byte file in 5 October source audit",
+      "action": "Hide download; request a replacement copy"
+    },
+    {
+      "id": "1hTF5WhhpVEZjDH-vFCXlsqx7QwCq4l-N",
+      "name": "HRX TROLLEY BAG .pdf",
+      "reason": "Zero-byte file in 5 October source audit",
+      "action": "Hide download; request a replacement copy"
+    },
+    {
+      "id": "1QbpDNpl2hXvTjpfFhpSEJ74Lmuin9SeG",
+      "name": "M&S 2025 New.pdf",
+      "reason": "Zero-byte file in 5 October source audit",
+      "action": "Hide download; request a replacement copy"
+    },
+    {
+      "id": "1yxmqyhPBs-kp9fEhcUR8h5MdIgIFHFGu",
+      "name": "Toburo Bags.pdf",
+      "reason": "Zero-byte file in 5 October source audit",
+      "action": "Hide download; request a replacement copy"
+    },
+    {
+      "id": "1dxBiZzi6dSagfhD70u13XpAZZ_txV6Wu",
+      "name": "Toburo Felt Bags and Bottles Catalog.pdf",
+      "reason": "Zero-byte file in 5 October source audit",
+      "action": "Hide download; request a replacement copy"
+    }
+  ],
+  "possibleDuplicates": [
+    {
+      "ids": [
+        "16nkpYs4_0IJaZpnmk6mclyKvnZdnQW3I",
+        "1fjtH615VQ3Hma7fsOmjsRt1EUGTGmymo"
+      ],
+      "names": [
+        "Eureka Forbes Catalogue 2026 MRP (1).pdf",
+        "Eureka Forbes Catalogue 2026 MRP.pdf"
+      ],
+      "evidence": "Byte-identical local cover and equal displayed download size",
+      "action": "Group sources without choosing a latest edition; owner must compare complete files"
+    },
+    {
+      "ids": [
+        "1veIcH8rqj5Jp48EBvQJpLbyzZx4DOujr",
+        "1Pil09obj9tOcY9862cHS3JeSQr0fwuQi"
+      ],
+      "names": [
+        "Notty Nuts - September - MRP (1).pdf",
+        "Notty Nuts - September - MRP.pdf"
+      ],
+      "evidence": "Byte-identical local cover and equal displayed download size",
+      "action": "Group sources without choosing a latest edition; owner must compare complete files"
+    },
+    {
+      "ids": [
+        "1d2PaD9vdt-DRMnOWwR1j7Oih_DTdqZcE",
+        "19ZrpzLeceNi_S4k0R6Rttuw7MomDxcCA"
+      ],
+      "names": [
+        "Puma Catalog.pdf",
+        "Puma Catalog1.pdf"
+      ],
+      "evidence": "Byte-identical local cover and equal displayed download size",
+      "action": "Group sources without choosing a latest edition; owner must compare complete files"
+    },
+    {
+      "ids": [
+        "1hR-NJ36tiFQvyrPc_xVCRn-q-ZIPSspj",
+        "1xoNfS7klP05H6y6Plvu8TlHLz0OxDSj7"
+      ],
+      "names": [
+        "TintBox Catalogue 2026 - TCH (1).pdf",
+        "TintBox Catalogue 2026 - TCH.pdf"
+      ],
+      "evidence": "Byte-identical local cover and equal displayed download size",
+      "action": "Group sources without choosing a latest edition; owner must compare complete files"
+    },
+    {
+      "ids": [
+        "1avGWCj3rGQcP6tduaOZ6BuHhGI3lQ6EV",
+        "1KEO49NE4rgvd_M58jro3zdQKv-lMLXF9"
+      ],
+      "names": [
+        "uppercase catalogue-2025_Digital Final (1).pdf",
+        "uppercase catalogue-2025_Digital Final.pdf"
+      ],
+      "evidence": "Byte-identical local cover and equal displayed download size",
+      "action": "Group sources without choosing a latest edition; owner must compare complete files"
+    }
+  ],
+  "oversized": [
+    {
+      "id": "1xrOYv2a7VAZtL-b0_XIoR0UbJfghjzwA",
+      "name": "HRX Travel Gear 2026.pdf",
+      "size": "65.3 MB",
+      "action": "Warn before download; request current compact edition"
+    },
+    {
+      "id": "1V8UitQuiFR4qV2Yffq2G8Qd-LyJIXYBh",
+      "name": "iScape k Series Plastic Pens 2021 .pdf",
+      "size": "94.7 MB",
+      "action": "Warn before download; request current compact edition"
+    },
+    {
+      "id": "1MOB5PVVIBfeBTXPyjDs61X_1vCFr7HoI",
+      "name": "ISCAPE SINGLE NOTEBOOK catalogue 2023-24.pdf",
+      "size": "58.9 MB",
+      "action": "Warn before download; request current compact edition"
+    },
+    {
+      "id": "1bruja9uHU37jt11WbCqbv4ZFIzHjNFIa",
+      "name": "Monte Carlo - Catlog.pdf",
+      "size": "166.4 MB",
+      "action": "Warn before download; request current compact edition"
+    },
+    {
+      "id": "1CCTLZM64xaBY4sL2qVZylP-hGu4hjDp6",
+      "name": "The Tenth House Catalogue 2026.pdf",
+      "size": "142.2 MB",
+      "action": "Warn before download; request current compact edition"
+    },
+    {
+      "id": "1Xg7BTfOljkHPOSGSPm4QUT1AGsIqeH29",
+      "name": "unwrap happiness sept 2026.pdf",
+      "size": "68.5 MB",
+      "action": "Warn before download; request current compact edition"
+    }
+  ],
+  "missingCovers": [
+    {
+      "id": "1xrOYv2a7VAZtL-b0_XIoR0UbJfghjzwA",
+      "name": "HRX Travel Gear 2026.pdf",
+      "action": "Use neutral document fallback"
+    },
+    {
+      "id": "1V8UitQuiFR4qV2Yffq2G8Qd-LyJIXYBh",
+      "name": "iScape k Series Plastic Pens 2021 .pdf",
+      "action": "Use neutral document fallback"
+    },
+    {
+      "id": "1MOB5PVVIBfeBTXPyjDs61X_1vCFr7HoI",
+      "name": "ISCAPE SINGLE NOTEBOOK catalogue 2023-24.pdf",
+      "action": "Use neutral document fallback"
+    },
+    {
+      "id": "1bruja9uHU37jt11WbCqbv4ZFIzHjNFIa",
+      "name": "Monte Carlo - Catlog.pdf",
+      "action": "Use neutral document fallback"
+    },
+    {
+      "id": "1CCTLZM64xaBY4sL2qVZylP-hGu4hjDp6",
+      "name": "The Tenth House Catalogue 2026.pdf",
+      "action": "Use neutral document fallback"
+    },
+    {
+      "id": "1Xg7BTfOljkHPOSGSPm4QUT1AGsIqeH29",
+      "name": "unwrap happiness sept 2026.pdf",
+      "action": "Use neutral document fallback"
+    }
+  ]
+}

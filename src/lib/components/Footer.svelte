@@ -1,9 +1,11 @@
 <script lang="ts">
+ import { resolve } from '$app/paths';
 	import { site, contactNumbers } from '$lib/data/site';
 	const columns = [
 		{
 			name: 'Company',
 			links: [
+				['Explore Products', '/products'],
 				['About Us', '/about'],
 				['Clients', '/clients'],
 				['Brands', '/brands'],
@@ -36,21 +38,22 @@
 <footer class="site-footer">
 	<div class="container footer-grid">
 		<div class="footer-brand">
-			<a class="footer-logo" href="/" aria-label="OfNeeds home">
+			<a class="footer-logo" href={resolve("/")} aria-label="OfNeeds home">
 				<img
-					src={site.navbarLogo}
+					src="/optimized/ofneeds-logo.webp"
 					alt="OfNeeds"
-					width="2172"
-					height="724"
+					width="434"
+					height="145"
 					loading="lazy"
 					decoding="async"
 				/>
 			</a>
+			<p>Thoughtful corporate gifting.<br />Built around your brand.</p>
 		</div>
 		{#each columns as column (column.name)}<div>
 				<h2>{column.name}</h2>
 				<ul>
-					{#each column.links as [label, href] (href)}<li><a {href}>{label}</a></li>{/each}
+					{#each column.links as [label, href] (href)}<li><a href={resolve((href) as `/${string}`)}>{label}</a></li>{/each}
 				</ul>
 			</div>{/each}
 		<div>
@@ -65,6 +68,6 @@
 	</div>
 	<div class="container footer-bottom">
 		<p>© {new Date().getFullYear()} OfNeeds. All rights reserved.</p>
-		<a href="/corporate-gifting-bangalore">Bengaluru based. India wide.</a>
+		<a href={resolve("/corporate-gifting-bangalore")}>Bengaluru based. India wide.</a>
 	</div>
 </footer>

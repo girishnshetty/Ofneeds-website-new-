@@ -1,4 +1,5 @@
 <script lang="ts">
+ import { resolve } from '$app/paths';
 	import Seo from '$lib/components/Seo.svelte';
 	import PageIntro from '$lib/components/PageIntro.svelte';
 	let { data } = $props();
@@ -19,6 +20,6 @@
 			{#each data.brand.products as product (product)}<li>{product}</li>{/each}
 		</ul>
 		<p>Product models, availability and pricing are confirmed with your quotation.</p>
-		<a class="button" href="/contact#quote">Request Pricing</a>
+		<a class="button" href={resolve("/contact#quote")}>Request Pricing</a>
 	</div>
 </section>

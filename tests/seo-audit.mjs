@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 const base = process.argv[2] || 'http://127.0.0.1:5174';
 assert.ok(['127.0.0.1', 'localhost', '[::1]'].includes(new URL(base).hostname));
-const profiles = JSON.parse(await readFile(new URL('../src/lib/data/seo-pages.json', import.meta.url), 'utf8'));
+const profiles = JSON.parse((await readFile(new URL('../src/lib/data/seo-pages.json', import.meta.url), 'utf8')).replace(/^\uFEFF/, ''));
 const origin = 'https://www.ofneeds.com';
 const decode = (value) => value.replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>');
 const attrs = (tag) => Object.fromEntries([...tag.matchAll(/([\w:-]+)="([^"]*)"/g)].map((m) => [m[1], decode(m[2])]));
@@ -64,7 +64,7 @@ for (const [path, profile] of Object.entries(profiles)) {
     const schemas = [...html.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/gs)].flatMap((m) => JSON.parse(m[1])['@graph']);
     const org = schemas.find((s) => s['@type'] === 'Organization');
     assert.equal(org.name, 'OfNeeds');
-    assert.equal(org.logo.url, origin + '/ofneeds-navbar-logo.png');
+    assert.equal(org.logo.url, origin + '/ofneeds-glossy-logo.png');
     assert.equal(org.address.addressLocality, 'Bengaluru');
     assert.deepEqual(org.contactPoint.map((p) => p.telephone), ['+917090795666', '+919739195666']);
     const webpage = schemas.find((s) => s['@id'] === origin + path + '#webpage');

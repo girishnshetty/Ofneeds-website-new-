@@ -1,4 +1,5 @@
 <script lang="ts">
+ import { resolve } from '$app/paths';
 	import CatalogueSection from '$lib/components/CatalogueSection.svelte';
 	import Seo from '$lib/components/Seo.svelte';
 	import Faq from '$lib/components/Faq.svelte';
@@ -12,7 +13,7 @@
 	import WelcomeKits from '$lib/components/WelcomeKits.svelte';
 	import { products, pageFor } from '$lib/data/catalog';
 	import { site } from '$lib/data/site';
-	import { articles } from '$lib/data/editorial';
+	import InsightsList from '$lib/components/InsightsList.svelte';
 	let { data } = $props();
 	const landing = $derived(data.landing);
 	const content = $derived(data.content);
@@ -43,7 +44,7 @@
 							<Icon name="check" size={18} />{item}
 						</li>{/each}
 				</ul>
-				<a class="button" href="/contact#quote">Request Pricing <Icon size={18} /></a>
+				<a class="button" href={resolve("/contact#quote")}>Request Pricing <Icon size={18} /></a>
 			</aside>
 		</div>
 	</section>
@@ -65,7 +66,7 @@
 			<h2>Related Gifting Solutions</h2>
 			<div class="related-grid">
 				{#each landing.related as slug (slug)}{@const related = pageFor(slug)}{#if related}<a
-							href={'/' + slug}
+							href={resolve(('/' + slug) as `/${string}`)}
 							><h3>{related.h1}</h3>
 							<Icon size={22} /></a
 						>{/if}{/each}
@@ -113,7 +114,7 @@
 						One partner for multiple gifting categories, with support through product selection,
 						customization and order coordination.
 					</p>
-					<a class="button" href="/contact#quote">Talk to Our Team <Icon size={18} /></a>
+					<a class="button" href={resolve("/contact#quote")}>Talk to Our Team <Icon size={18} /></a>
 				</aside>
 			</div>
 		</section>
@@ -130,35 +131,10 @@
 					For a useful comparison, include any required features, packaging and delivery locations.
 					Our team can then discuss the available sourcing options with your quotation.
 				</p>
-				<a class="button" href="/contact#quote">Discuss Branded Products <Icon size={18} /></a>
+				<a class="button" href={resolve("/contact#quote")}>Discuss Branded Products <Icon size={18} /></a>
 			</div>
 		</section>
-	{:else if data.slug === 'insights'}<section class="section">
-			<div class="container">
-				<p class="eyebrow">Start with a better brief</p>
-				<h2>Resources for Your Next Order</h2>
-				<div class="related-grid">
-					{#each ['employee-welcome-kits-bangalore', 'corporate-tshirts-bangalore', 'corporate-jackets-bangalore'] as slug (slug)}{@const item =
-							pageFor(slug)}{#if item}<a href={'/' + slug}
-								><h3>{item.h1}</h3>
-								<Icon size={22} /></a
-							>{/if}{/each}
-				</div>
-				{#if articles.some((article) => article.published)}<h2 class="spaced-heading">
-						Latest Insights
-					</h2>
-					<div class="related-grid">
-						{#each articles.filter((article) => article.published) as article (article.slug)}<a
-								href={'/insights/' + article.slug}
-								><div>
-									<h3>{article.title}</h3>
-									<p>{article.description}</p>
-								</div>
-								<Icon size={22} /></a
-							>{/each}
-					</div>{/if}
-			</div>
-		</section>
+	{:else if data.slug === 'insights'}<InsightsList />
 	{:else if data.slug === 'privacy-policy'}<section class="section">
 			<div class="container prose">
 				<h2>Your enquiry information</h2>
@@ -174,7 +150,7 @@
 					choosing the WhatsApp link opens WhatsApp with your prepared requirement. A direct
 					submission, when enabled, sends the brief to the OfNeeds configured lead service.
 				</p>
-				<h2>Questions about your information</h2>
+				<h2>Your saved product shortlist</h2><p>Product selections and approximate quantities are stored in session storage in your browser tab. They remain until you clear the shortlist or the browser ends the session. Contact details entered in the brief form are not saved to that browser storage. Preparing a WhatsApp message does not send it; you choose whether to open and send it.</p><h2>Website measurement</h2><p>This version does not install an analytics provider. It exposes limited interaction events without names, phone numbers, email addresses or message content. Any future external measurement should use the business-approved provider and consent arrangements.</p><h2>Questions about your information</h2>
 				<p>
 					Contact <a href={'mailto:' + site.email}>{site.email}</a> for questions about enquiry data or
 					to request the complete applicable privacy policy. Avoid including passwords, payment information
@@ -211,6 +187,6 @@
 			<p class="eyebrow">Let’s find the right fit</p>
 			<h2>Tell us what you have in mind.</h2>
 		</div>
-		<a class="button" href="/contact#quote">Get Corporate Quote <Icon size={18} /></a>
+		<a class="button" href={resolve("/contact#quote")}>Get Corporate Quote <Icon size={18} /></a>
 	</div>
 </section>

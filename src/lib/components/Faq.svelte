@@ -1,4 +1,5 @@
 <script lang="ts">
+ import { resolve } from '$app/paths';
 	import { faqs as defaultFaqs } from '$lib/data/site';
 	import Icon from './Icon.svelte';
 	let { items = defaultFaqs, heading = 'Good Questions. Helpful Answers.' }: {
@@ -12,7 +13,7 @@
 			<p class="eyebrow">A little clarity, before you begin</p>
 			<h2>{heading}</h2>
 			<p>Planning a corporate order? Here’s where to start.</p>
-			<a class="text-link" href="/contact">Ask our team <Icon size={17} /></a>
+			<a class="text-link" href={resolve("/contact")}>Ask our team <Icon size={17} /></a>
 		</div>
 		<div class="faq-list">
 			{#each items as faq (faq.question)}<details>

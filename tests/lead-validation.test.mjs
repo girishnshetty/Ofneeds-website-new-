@@ -1,14 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import fs from 'node:fs';
-import ts from 'typescript';
-const source = fs.readFileSync(new URL('../src/lib/server/leads.ts', import.meta.url), 'utf8');
-const output = ts.transpileModule(source, {
-	compilerOptions: { target: ts.ScriptTarget.ES2022, module: ts.ModuleKind.ES2022 }
-}).outputText;
-const { validateLead, webhookReady } = await import(
-	'data:text/javascript;base64,' + Buffer.from(output).toString('base64')
-);
+import { loadTypescript } from './helpers/load-typescript.mjs';
+const { validateLead, webhookReady } = await loadTypescript('src/lib/server/leads.ts');
 function form(changes = {}) {
 	const values = {
 		name: 'Test Buyer',

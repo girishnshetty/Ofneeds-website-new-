@@ -1,10 +1,11 @@
 <script lang="ts">
-	import { categories } from '$lib/data/catalog';
+ import { resolve } from '$app/paths';
+	import { categories } from '$lib/data/categories';
 	import Icon from './Icon.svelte';
 </script>
 
 <div class="category-grid">
-	{#each categories as category (category.href)}<a class="category-card" href={category.href}
+	{#each categories as category (category.href)}<a class="category-card" href={resolve((category.href) as `/${string}`)}
 			><div class="category-image">
 				<img
 					src={category.image}

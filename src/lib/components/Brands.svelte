@@ -1,24 +1,20 @@
 <script lang="ts">
-	import { brands } from '$lib/data/editorial';
-	const verified = brands.filter((brand) => brand.verified);
+ import { resolve } from '$app/paths';
+ import { brands } from '$lib/data/editorial';
+ import { catalogueBrands } from '$lib/data/brand-references';
+ let { compact = false }: { compact?: boolean } = $props();
+ let search = $state('');
+ let category = $state('All');
+ const verified = brands.filter((brand) => brand.verified);
+ const categories = [...new Set(catalogueBrands.flatMap((brand) => brand.categories))];
+ const filtered = $derived(catalogueBrands.filter((brand) => `${brand.name} ${brand.categories.join(' ')}`.toLowerCase().includes(search.trim().toLowerCase()) && (category === 'All' || brand.categories.includes(category))));
 </script>
-
-{#if verified.length}<section class="section">
-		<div class="container">
-			<p class="eyebrow">Sourced for your requirement</p>
-			<h2>Brands Available for Corporate Orders</h2>
-			<div class="brand-grid">
-				{#each verified as brand (brand.slug)}<a href={'/brands/' + brand.slug}
-						>{#if brand.logo}<img
-								src={brand.logo}
-								alt={brand.name}
-								width="160"
-								height="80"
-								loading="lazy"
-							/>{/if}
-						<h3>{brand.name}</h3>
-						<p>{brand.description}</p></a
-					>{/each}
-			</div>
-		</div>
-	</section>{/if}
+<section class="section"><div class="container"><div class="section-heading"><div><p class="eyebrow">A particular brand in mind?</p><h2>Start with the name.<br />We’ll discuss the options.</h2></div><p>Explore brand references in our existing catalogue library. Sourcing, authorization and product availability are confirmed separately.</p></div>
+ {#if !compact}<div class="discovery-toolbar"><label for="brand-search">Search brand references<input id="brand-search" type="search" placeholder="Search brands or categories" bind:value={search} /></label><label for="brand-category">Catalogue category<select id="brand-category" bind:value={category}><option>All</option>{#each categories as item (item)}<option>{item}</option>{/each}</select></label></div><div class="sourcing-legend"><p><strong>Catalogue reference</strong> — a name appears in a supplied document.</p><p><strong>Authorized relationship</strong> — requires documentary verification.</p><p><strong>Availability</strong> — confirmed for the specific model and enquiry.</p></div><p class="fineprint" role="status">{filtered.length} brand references · no live stock feed</p>{/if}
+ <div class="brand-reference-grid">{#each (compact ? filtered.slice(0,4) : filtered) as brand (brand.slug)}<article><div class="brand-monogram" aria-hidden="true">{brand.name.slice(0,1)}</div><h3>{brand.name}</h3><p>{brand.categories.join(' · ')}</p><span class="reference-label">Catalogue reference</span><p class="fineprint">Authorization not recorded. Confirm sourcing and model availability.</p><a class="text-link" href={resolve(('/catalogues?category=' + encodeURIComponent(brand.categories[0])) as `/${string}`)}>View catalogue category →</a><a class="text-link" href={resolve(('/contact?brand=' + encodeURIComponent(brand.name) + '#quote') as `/${string}`)}>Request availability →</a></article>{:else}<div class="empty-state"><h3>No matching brand references</h3><p>Tell us the brand and model you need. Our team will discuss sourcing options.</p><button class="text-button" type="button" onclick={() => { search = ''; category = 'All'; }}>Clear filters</button></div>{/each}</div>
+ {#if compact}<a class="button button-outline" href={resolve("/brands")} style="margin-top:28px">Explore brand references →</a>{/if}
+ {#if verified.length}<h2 class="spaced-heading">Verified sourcing relationships</h2><div class="brand-grid">{#each verified as brand (brand.slug)}<a href={resolve(('/brands/' + brand.slug) as `/${string}`)}>{#if brand.logo}<img src={brand.logo} alt={brand.name} width="160" height="80" loading="lazy" />{/if}<h3>{brand.name}</h3><p>{brand.description}</p></a>{/each}</div>{/if}
+</div></section>
+<style>
+ .brand-reference-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:20px; }.brand-reference-grid article { padding:24px; border:1px solid var(--line); border-radius:12px; min-width:0; }.brand-monogram { display:grid; place-content:center; width:46px; height:46px; background:#edf2f5; color:var(--navy); font-size:22px; border-radius:10px; margin-bottom:20px; }.brand-reference-grid h3 { font-size:20px; margin-bottom:12px; }.brand-reference-grid p { font-size:12px; }.reference-label { display:inline-block; padding:5px 8px; border:1px solid var(--line); border-radius:4px; font-size:9px; margin-bottom:12px; }.brand-reference-grid .text-link { display:flex; font-size:11px; }.sourcing-legend { padding:20px; background:var(--offwhite); border-radius:8px; margin-bottom:22px; }.sourcing-legend p { font-size:12px; margin:0 0 8px; }@media(max-width:1000px){.brand-reference-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:500px){.brand-reference-grid{grid-template-columns:1fr}}
+</style>
