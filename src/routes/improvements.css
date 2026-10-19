@@ -176,7 +176,7 @@ h1 { text-wrap: balance; }
 .nav-row { min-height: 88px; }
 .nav-row nav > a { font-weight: 550; }
 .navbar-logo img { width: 154px; }
-.nav-cta { box-shadow: none; }
+.nav-row .nav-cta { box-shadow: none; white-space: nowrap; }
 
 /* Hero: a product-led composition with a framed visual and spacious copy. */
 .hero { position: relative; padding-block: 70px 76px; background: #f5f3ed; border-bottom: 1px solid var(--line); }
@@ -391,6 +391,7 @@ h1 { text-wrap: balance; }
  .quote-section .quote-panel { padding: 22px 16px; }
  .quote-intro h2 { font-size: 39px; }
  .form-tabs button { font-size: 11px; padding: 10px 7px; }
+ .nav-row .nav-cta { font-size: 11px; padding: 10px 12px; min-height: 44px; }
  .specifications { padding: 8px 16px; }
  .site-footer { padding-top: 52px; }
 }
@@ -399,6 +400,9 @@ h1 { text-wrap: balance; }
  .hero-trust { gap: 6px; font-size: 8.5px; }
  .hero-copy .eyebrow { letter-spacing: .1em; font-size: 8px; }
  .navbar-logo img { width: 112px; }
+ .nav-row { gap: 8px; }
+ .navbar-logo { width: 104px; }
+ .nav-row .nav-cta { padding-inline: 10px; }
  .budget-grid { grid-template-columns: 1fr; }
  .budget-grid > a, .budget-grid > a:nth-child(3) { border-right: 0; border-bottom: 1px solid var(--line); }
  .selection-copy { padding: 20px; }
