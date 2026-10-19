@@ -5,6 +5,20 @@ const { normalizeItems, quoteSummary } = await loadTypescript('src/lib/quote-ite
 const { productSelections, matchesBudget } = await loadTypescript('src/lib/data/products.ts');
 const { catalogueCollections, catalogues, catalogueSizeMB } = await loadTypescript('src/lib/data/catalogues.ts');
 const { SubmissionGuard, limitedFormData } = await loadTypescript('src/lib/server/submissions.ts');
+const { customerStories } = await loadTypescript('src/lib/data/customer-stories.ts');
+const { testimonials } = await loadTypescript('src/lib/data/legacy.ts');
+
+test('customer stories retain exact published source feedback and grounded quantities', () => {
+	assert.ok(customerStories.length > 0);
+	assert.equal(new Set(customerStories.map(story => story.slug)).size, customerStories.length);
+	for (const story of customerStories) {
+		const source = testimonials.find(item => item.name === story.author);
+		assert.ok(source);
+		assert.equal(story.quote, source.quote);
+		assert.equal(story.role, source.role);
+		if (story.quantity) assert.ok(source.quote.includes(story.quantity.split(' ')[0]));
+	}
+});
 
 test('shortlist rejects unknown IDs, fractional quantities and unrelated stored data', () => {
 	assert.deepEqual(normalizeItems([{ id: 'notebooks', quantity: 25, email: 'must-not-be-stored' }, { id: 'invented', quantity: 20 }, { id: 'caps', quantity: 1.5 }, { id: 't-shirts', quantity: 0 }]), [{ id: 'notebooks', quantity: 25 }]);

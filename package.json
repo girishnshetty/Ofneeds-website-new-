@@ -10,7 +10,7 @@
     "prepare": "svelte-kit sync || echo ''",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-    "test": "node --test tests/lead-validation.test.mjs tests/quote-workflow.test.mjs",
+    "test": "node --test tests/lead-validation.test.mjs tests/quote-workflow.test.mjs tests/media-manifest.test.mjs",
     "test:smoke": "node tests/site-smoke.mjs",
     "test:seo": "node tests/seo-audit.mjs",
     "test:integration": "node tests/lead-integration.mjs",

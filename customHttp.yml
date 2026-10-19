@@ -1,0 +1,7 @@
+# Only content-hashed files get an immutable cache lifetime. Keep these headers
+# with the source on Amplify; validate effective headers after deployment.
+customHeaders:
+  - pattern: '/media/*'
+    headers:
+      - key: 'Cache-Control'
+        value: 'public, max-age=31536000, immutable'

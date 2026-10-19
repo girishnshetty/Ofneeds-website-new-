@@ -2,7 +2,7 @@
  import { resolve } from '$app/paths';
  import { enhance } from '$app/forms';
  import { page } from '$app/state';
- import { onMount } from 'svelte';
+ import { onMount, tick } from 'svelte';
  import { site, contactNumbers, whatsappUrl } from '$lib/data/site';
  import { quote, quoteSummary } from '$lib/quote';
  import { track } from '$lib/analytics';
@@ -12,6 +12,7 @@
  type Result = { success?: boolean; message?: string; errors?: Record<string, string>; values?: Record<string, string>; leadId?: string };
  let { enabled = false, initial }: { enabled?: boolean; initial?: Result | null } = $props();
  let mode = $state<'auto' | 'tally' | 'brief'>('auto');
+ let tallyLoaded = $state(false);
  const selectedMode = $derived(mode === 'auto' ? (enabled || $quote.length || page.url.searchParams.has('brand') || page.url.searchParams.has('catalogue') ? 'brief' : 'tally') : mode);
  let sending = $state(false);
  let result = $state<Result | null>();
@@ -31,6 +32,8 @@
   { name: 'deliveryDate', label: 'Requested Delivery Date', type: 'date', required: false, autocomplete: 'off' },
   { name: 'deliveryCity', label: 'Delivery City', type: 'text', required: true, autocomplete: 'address-level2' }
  ] as const;
+ const fieldIds: Record<string, string> = { productRequirement: 'quote-product', brandingRequirements: 'quote-branding', notes: 'quote-notes', ...Object.fromEntries(fields.map(field => [field.name, 'quote-' + field.name])) };
+ async function focusFeedback() { await tick(); document.getElementById('quote-feedback')?.focus(); }
  onMount(() => { submissionKey = crypto.randomUUID(); });
  function buildDraft(event: SubmitEvent) {
   draft = '';
@@ -41,7 +44,7 @@
   const originalRequirement = String(data.get('productRequirement') || '');
   if (summary) data.set('productRequirement', [summary, originalRequirement].filter(Boolean).join('\n\n'));
   const parsed = validateLead(data);
-  if (Object.keys(parsed.errors).length) { result = { values: { ...parsed.values, productRequirement: originalRequirement }, errors: parsed.errors, message: 'Please check the highlighted fields.' }; return; }
+  if (Object.keys(parsed.errors).length) { result = { values: { ...parsed.values, productRequirement: originalRequirement }, errors: parsed.errors, message: 'Please check the highlighted fields.' }; void focusFeedback(); return; }
   result = null;
   draft = `Hi OfNeeds, please help us with a corporate gifting quotation.\n\n${summary ? 'Selected products:\n' + summary + '\n\n' : ''}Name: ${data.get('name')}\nCompany: ${data.get('company')}\nWork Email: ${data.get('email')}\nContact: ${data.get('phone')}\nRequirement: ${originalRequirement || 'Products listed above'}\nApproximate recipients / units: ${data.get('quantity')}\nBudget per recipient: ${data.get('budget') ? '₹' + data.get('budget') : 'To discuss'}\nBranding: ${data.get('brandingRequirements') || 'To discuss'}\nDelivery city: ${data.get('deliveryCity')}\nRequested date: ${data.get('deliveryDate') || 'To discuss'}\nSpecial instructions: ${data.get('notes') || 'None'}\n\nPlease confirm specifications, MOQ, availability, GST, packaging and delivery.`;
  }
@@ -57,10 +60,10 @@
    {#if selectedMode === 'tally'}
     <h3>Get My Corporate Quote</h3><p class="fineprint">Our existing enquiry form is hosted by Tally. You can also <a href={tallyUrl} target="_blank" rel="external noopener noreferrer">open it in a new tab</a>.</p>
     {#if summary}<label class="field" for="tally-summary">Your selected products<textarea id="tally-summary" readonly rows="4" value={summary}></textarea></label><p class="fineprint">Copy this summary into the form’s requirements field. Automatic field mapping depends on the Tally form configuration; your shortlist stays here.</p>{/if}
-    <iframe title="OfNeeds corporate enquiry form" src={site.tally} loading="lazy" height="760"></iframe>
+    {#if tallyLoaded}<iframe title="OfNeeds corporate enquiry form" src={site.tally} height="760" onload={(event) => (event.currentTarget as HTMLIFrameElement).focus()}></iframe>{:else}<div class="tally-launch"><p>Share your contact details and gifting requirements with our team.</p><button type="button" class="button" onclick={() => { tallyLoaded = true; track('Quote Started', { item_count: $quote.length }); }}>Start enquiry <Icon size={18} /></button><p class="fineprint">Opens the Tally enquiry form here. You can also use the link above to open it in a new tab.</p></div>{/if}
    {:else}
     <h3>{enabled ? 'Get My Corporate Quote' : 'Tell us what you have in mind'}</h3><p class="fineprint">{enabled ? 'Complete the brief below to send it to our team.' : 'Build your requirement below, then review and send it on WhatsApp.'}</p>
-    {#if response?.success}<div class="form-success" role="status"><Icon name="check" /><h4>Thank you for your enquiry.</h4><p>{response.message}</p><p class="fineprint">Reference: {response.leadId}</p><p>Your shortlist has been kept for reference.</p></div>
+    {#if response?.success}<div class="form-success" id="quote-feedback" tabindex="-1" role="status"><Icon name="check" /><h4>Thank you for your enquiry.</h4><p>{response.message}</p><p class="fineprint">Reference: {response.leadId}</p><p>Your shortlist has been kept for reference.</p></div>
     {:else}
      <form method="POST" action="/contact?/quote" onsubmit={buildDraft} oninput={() => { draft = ''; }} use:enhance={({ cancel }) => {
       if (!enabled || sending) { cancel(); return; }
@@ -72,16 +75,18 @@
         result = actionResult.data as Result;
         if (result.success) track('Quote Submitted', { item_count: $quote.length });
        } else result = { message: 'We could not confirm receipt. Your selections are saved. Please retry or contact our team.' };
+       void focusFeedback();
       };
      }}>
+      {#if response?.message}<div class="form-error-summary" id="quote-feedback" tabindex="-1" role="alert"><p>{response.message}</p>{#if response.errors}<ul>{#each Object.entries(response.errors) as [name, message] (name)}{#if fieldIds[name]}<li><a href={'#' + fieldIds[name]}>{message}</a></li>{/if}{/each}</ul>{/if}</div>{/if}
       <div class="form-grid">
        {#each fields as field (field.name)}<div class="field"><label for={'quote-' + field.name}>{field.label}{#if field.required}<span aria-hidden="true"> *</span>{/if}</label><input id={'quote-' + field.name} name={field.name} type={field.type} required={field.required} autocomplete={field.autocomplete} min={field.type === 'number' ? (field.name === 'quantity' ? '1' : '0') : undefined} max={field.type === 'number' ? '100000000' : undefined} step={field.type === 'number' && field.name === 'quantity' ? '1' : undefined} maxlength={field.type === 'email' ? 254 : field.type === 'tel' ? 30 : field.type === 'text' ? 200 : undefined} value={response?.values?.[field.name] ?? (field.name === 'quantity' && $quote.length ? Math.max(...$quote.map((item) => item.quantity)) : '')} aria-invalid={response?.errors?.[field.name] ? 'true' : undefined} aria-describedby={response?.errors?.[field.name] ? 'error-' + field.name : undefined} />{#if response?.errors?.[field.name]}<small class="field-error" id={'error-' + field.name}>{response.errors[field.name]}</small>{/if}</div>{/each}
        <div class="field field-full"><label for="quote-product">Product Requirement{#if !$quote.length} *{/if}</label><textarea id="quote-product" name="productRequirement" required={!$quote.length} rows="2" maxlength="2000" placeholder={$quote.length ? 'Anything else to add to your selected products?' : 'Welcome kits, apparel, bottles, awards…'} aria-invalid={response?.errors?.productRequirement ? 'true' : undefined} aria-describedby={response?.errors?.productRequirement ? 'error-productRequirement' : undefined}>{response?.values?.productRequirement ?? (page.url.searchParams.get('catalogue') ? 'Please share catalogue: ' + page.url.searchParams.get('catalogue') : page.url.searchParams.get('brand') ? 'Please confirm sourcing and availability for: ' + page.url.searchParams.get('brand') : '')}</textarea>{#if response?.errors?.productRequirement}<small class="field-error" id="error-productRequirement">{response.errors.productRequirement}</small>{/if}</div>
-       <div class="field field-full"><label for="quote-branding">Logo & Branding Requirements</label><textarea id="quote-branding" name="brandingRequirements" rows="2" maxlength="1000" placeholder="Logo placement, preferred branding method, packaging or a welcome message">{response?.values?.brandingRequirements ?? ''}</textarea></div>
-       <div class="field field-full"><label for="quote-notes">Special Instructions</label><textarea id="quote-notes" name="notes" rows="3" maxlength="4000" placeholder="Recipient sizes, multiple destinations or other requirements">{response?.values?.notes ?? ''}</textarea></div>
+       <div class="field field-full"><label for="quote-branding">Logo & Branding Requirements</label><textarea id="quote-branding" name="brandingRequirements" rows="2" maxlength="1000" aria-invalid={response?.errors?.brandingRequirements ? 'true' : undefined} aria-describedby={response?.errors?.brandingRequirements ? 'error-brandingRequirements' : undefined} placeholder="Logo placement, preferred branding method, packaging or a welcome message">{response?.values?.brandingRequirements ?? ''}</textarea>{#if response?.errors?.brandingRequirements}<small class="field-error" id="error-brandingRequirements">{response.errors.brandingRequirements}</small>{/if}</div>
+       <div class="field field-full"><label for="quote-notes">Special Instructions</label><textarea id="quote-notes" name="notes" rows="3" maxlength="4000" aria-invalid={response?.errors?.notes ? 'true' : undefined} aria-describedby={response?.errors?.notes ? 'error-notes' : undefined} placeholder="Recipient sizes, multiple destinations or other requirements">{response?.values?.notes ?? ''}</textarea>{#if response?.errors?.notes}<small class="field-error" id="error-notes">{response.errors.notes}</small>{/if}</div>
        <div class="form-trap" aria-hidden="true"><label for="quote-website">Website</label><input id="quote-website" name="website" tabindex="-1" autocomplete="off" /></div>
        <input type="hidden" name="source" value={page.url.pathname} /><input type="hidden" name="selectedProducts" value={JSON.stringify($quote)} /><input type="hidden" name="submissionKey" value={submissionKey} />
-       <div class="field-full"><p class="fineprint">Share artwork with our team after your enquiry. By sending a brief you ask OfNeeds to contact you about this requirement. Read our <a href={resolve("/privacy-policy")}>privacy information</a>.</p>{#if response?.message}<p class="field-error" role="alert">{response.message}</p>{/if}<button class="button" type="submit" disabled={sending}>{sending ? 'Sending…' : enabled ? 'Request My Corporate Quote' : 'Prepare WhatsApp Enquiry'}<Icon size={18} /></button></div>
+       <div class="field-full"><p class="fineprint">Share artwork with our team after your enquiry. By sending a brief you ask OfNeeds to contact you about this requirement. Read our <a href={resolve("/privacy-policy")}>privacy information</a>.</p><button class="button" type="submit" disabled={sending}>{sending ? 'Sending…' : enabled ? 'Request My Corporate Quote' : 'Prepare WhatsApp Enquiry'}<Icon size={18} /></button></div>
       </div>
      </form>
     {/if}

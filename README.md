@@ -56,3 +56,21 @@ The integration suite starts a separate preview on port 5180 and a local mock re
 Existing category URLs, redirects, robots.txt, canonical URLs and contact details are retained. New discovery URLs are `/products` and `/products/[slug]`. No upload or public administrative dashboard is introduced.
 
 See `docs/INITIAL-AUDIT.md`, `docs/IMPLEMENTATION-REPORT.md` and `docs/CATALOGUE-REVIEW.md` for implementation scope, evidence and remaining business inputs. Validation logs and screenshots are retained locally under `output/validation/`.
+
+## Quality follow-up
+
+The measured mobile lab results and their limits are in [docs/QUALITY-REPORT.md](docs/QUALITY-REPORT.md). Business inputs for real photography, product specifications, case studies and enquiry receipt are listed in [docs/CONTENT-INTAKE.md](docs/CONTENT-INTAKE.md).
+
+The existing Tally form loads when a visitor chooses **Start enquiry**. One owner-approved test was accepted by Tally and confirmed received in the enquiry inbox on 20 October 2026; see `docs/enquiry-verification.json`. The optional direct webhook remains unconfigured because the owner selected the existing Tally channel.
+
+Three customer stories reuse exact published feedback from AntStack, Infor and Amazon Bazaar. Their quotes appear once on the homepage; the clients page retains all seven distinct reviews. These are attributed customer experiences, without invented project photos, timelines, locations or model specifications.
+
+Responsive derivatives are committed, so normal builds need no image tooling. To regenerate after editing `docs/photography-sources.json`, install Sharp separately and run from the project directory:
+
+```powershell
+npm.cmd install --prefix .tmp/media-tools --no-audit --no-fund sharp
+node scripts/optimize-media.mjs .tmp/media-tools/node_modules/sharp
+npm.cmd test
+```
+
+Original assets are retained. New `/media/` URLs are content hashed; keep the generated manifest and media files together. `customHttp.yml` prepares their Amplify cache headers; validate actual headers after deployment and merge any existing console configuration.

@@ -20,7 +20,7 @@ A workspace ignore rule excluded every folder named `data`, including applicatio
 | Product detail | Ten `/products/[slug]` pages, quantity selection, optional gallery/specification fields, honest unknown-value labels, package inclusions, related selections, quotation/WhatsApp actions and cost/timeline clarification | Exact model photographs and supplier-verified technical specifications still need business data |
 | Quotation builder | Shared tab-persistent shortlist, per-item quantities, remove/clear controls, recipient budget, branding, delivery city/date, contact fields and special instructions | No automated pricing, checkout or inventory reservation |
 | Enquiry reliability | Shared client/server validation; streamed 32 KB limit; honeypot; bounded 12-attempt/10-minute process-local limit; confirmed-response acknowledgement; payload-bound duplicate handling; upstream idempotency key; preserved selections on failure | A real endpoint/inbox needs owner configuration and a controlled end-to-end check; scaled deployments need durable shared limiting/idempotency |
-| Tally and WhatsApp | Original Tally embed and link retained; selected-product summary available to copy; URL-encoded full WhatsApp brief with explicit review/send step | Automatic Tally field mapping and actual inbox receipt are not claimed or externally tested |
+| Tally and WhatsApp | Original Tally embed and link retained; selected-product summary available to copy; URL-encoded full WhatsApp brief with explicit review/send step. One owner-approved Tally test was accepted and inbox receipt confirmed on 20 October | Automatic Tally field mapping is not configured; the optional direct receiver is separate |
 | Catalogue library | All 97 source IDs retained; 85 downloadable collection cards group 90 source files; seven historical empty sources in request-a-copy view; search/category/status/type/sort controls; 18-card progressive loading; file-size warnings; fallback covers and source details | Five duplicate pairs require complete-file comparison; current Drive permissions and latest editions remain incompletely verified |
 | Brands | Searchable name/category showcase based on 12 catalogue-supported references; typographic cards avoid adding unlicensed logos; source IDs retained | Catalogue mention, authorized relationship and confirmed model availability are distinguished; no unsupported official-partner or live-stock claims |
 | Welcome kits | User/live-confirmed advertised ₹499/₹999 packages, exact retained inclusions, cost caveats, package-specific enquiry pages and build-your-own shortlist | All-inclusive charges and production schedules need quotation |
@@ -86,12 +86,22 @@ Automatic approval review rejected a proposed external source-validation upload.
 
 1. Real model/SKU data, accurate product galleries, verified MOQs/materials/colours, authorization evidence and current availability where the business wants those filters or claims.
 2. Drive owner review of all current permissions, seven replacement copies, five possible duplicate editions and preferred compact copies of large files. One working preview is not full-library validation.
-3. Approved lead receiver credentials or verified Tally field mapping, approved OfNeeds inbox routing and a controlled real receipt/acknowledgement test. The receiver must honor idempotency and define its acceptance semantics.
+3. The selected Tally channel passed an owner-approved test and owner-confirmed inbox receipt on 20 October. Automatic shortlist field mapping remains separate; the optional direct receiver is unconfigured and would require its own durable acceptance/idempotency checks if adopted.
 4. Owner-approved completed-project photographs/case studies, testimonial/brand asset permissions, article publication approval and complete business-approved privacy/order policies.
 5. A consent-approved analytics provider, if measurement is desired. Until then hooks stay local.
 6. Production-host performance/accessibility checks and shared durable abuse/idempotency protection before scaling the direct submission endpoint.
 
 ## Production readiness and local use
+
+### Quality follow-up — 20 October 2026
+
+The prior Lighthouse limitation has been resolved for local lab testing. See `QUALITY-REPORT.md` and `quality-results.json`: final mobile performance samples are homepage 91, notebook detail 99, catalogues 98 and contact 99, with weighted accessibility/best-practices/SEO scores of 100. These do not establish production field performance or full WCAG conformance. The final homepage sample had LCP 2.4 s and a slow-host CPU warning; INP remains unmeasured.
+
+This follow-up fixes an unweighted accessible-name issue on product image links, adds focused/linked form-error summaries, loads Tally on request with keyboard focus transfer, and supplies 91 responsive derivatives for 16 existing image references. Matched small variants are 33% lighter. Contact initial-load performance changed from 77 to 99 after deferring 790 KB of recorded external form resources. The original form renders on request. The owner authorized one labelled test (`OFN-QA-20261020-01`), Tally accepted it, and the owner confirmed inbox receipt.
+
+Three customer stories summarize exact existing testimonials from AntStack, Infor and Amazon Bazaar, with source attribution and no invented project evidence. The homepage retains seven distinct quotes without repetition; the clients page still shows all seven. Full project case studies remain separate from customer-reported experiences.
+
+The build and Svelte check pass; the unit suite now has 16 passing tests, including media/hash and story-source integrity. Mock lead integration, the 50-page smoke check and SEO checks pass. Model-level product facts and fuller project evidence still need the inputs in `CONTENT-INTAKE.md`; the owner deferred product photos.
 
 ### Premium presentation follow-up
 

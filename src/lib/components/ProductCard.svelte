@@ -8,7 +8,7 @@
 	let feedback = $state('');
 </script>
 <article class="selection-card">
-	<a class="selection-image" href={resolve((product.href) as `/${string}`)} aria-label={'View ' + product.name}>
+	<a class="selection-image" href={resolve((product.href) as `/${string}`)} aria-label={'View ' + product.name + ' — ' + (product.kind === 'package' ? 'Welcome-kit package' : 'Product selection')}>
 		<img src={product.image} srcset={product.photo.srcset} sizes="(max-width: 600px) 90vw, (max-width: 1000px) 44vw, 28vw" width={product.photo.width} height={product.photo.height} alt={product.photo.alt} loading="lazy" decoding="async" style:object-fit={product.photo.fit} style:object-position={product.photo.position} />
 		<span class="selection-badge">{product.kind === 'package' ? 'Welcome-kit package' : 'Product selection'}</span>
 	</a>

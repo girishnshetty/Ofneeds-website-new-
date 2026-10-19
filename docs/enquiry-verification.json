@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-20",
+  "channel": "Existing Tally form",
+  "formUrl": "https://tally.so/r/OD0ZV7",
+  "reference": "OFN-QA-20261020-01",
+  "label": "Website QA test — no quotation required",
+  "authorization": "Owner explicitly approved one labelled test in this chat",
+  "submittedTests": 1,
+  "tallyStatus": "Form submitted",
+  "tallyConfirmation": "Thanks for completing this form!",
+  "inboxReceipt": "Confirmed by owner in this chat",
+  "contactData": "OfNeeds public business contact details only",
+  "sourceScreenshot": "output/validation/tally-test-accepted.jpg"
+}

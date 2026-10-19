@@ -1,3 +1,4 @@
+import optimizedMedia from './optimized-media.json';
 export type Photography = {
 	src: string;
 	srcset: string;
@@ -7,7 +8,9 @@ export type Photography = {
 	position: string;
 	fit: 'cover' | 'contain';
 };
-export const photography = {
+// Original references are retained as the key/type contract; only the generated
+// responsive manifest is shipped to the browser.
+const sourcePhotography = {
 	catalogueDrinkware: { src: '/catalogue-images/drinkware-900.webp', srcset: '/catalogue-images/drinkware-480.webp 480w, /catalogue-images/drinkware-900.webp 900w', width: 900, height: 637, alt: 'Bottles, tumblers and mugs from the supplied UG Drinkware catalogue', position: '50% 50%', fit: 'contain' },
 	cataloguePens: { src: '/catalogue-images/pens-900.webp', srcset: '/catalogue-images/pens-480.webp 480w, /catalogue-images/pens-900.webp 900w', width: 900, height: 637, alt: 'Writing instruments from the supplied UG Pens catalogue', position: '50% 50%', fit: 'contain' },
 	welcome: {
@@ -148,4 +151,5 @@ export const photography = {
 		fit: 'cover'
 	}
 } satisfies Record<string, Photography>;
-export type PhotoKey = keyof typeof photography;
+export type PhotoKey = keyof typeof sourcePhotography;
+export const photography = optimizedMedia as Record<PhotoKey, Photography>;

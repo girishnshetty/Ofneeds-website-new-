@@ -108,7 +108,7 @@
 		</ol>
 	</div>
 </section>
-<CaseStudies /><Brands compact /><GiftingSolutions /><Testimonials />
+<CaseStudies /><Brands compact /><GiftingSolutions /><Testimonials excludeStoryQuotes />
 <section class="section local-section">
 	<div class="container local-layout">
 		<div>

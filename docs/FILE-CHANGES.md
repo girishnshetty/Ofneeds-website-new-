@@ -84,3 +84,11 @@ Scope: ofneeds-source-preview only. Source-data manifests are now explicitly tra
 - tests/quote-workflow.test.mjs
 - bun.lock
 - docs/FILE-CHANGES.md
+
+## 20 October quality follow-up
+
+- Customer stories: `src/lib/data/customer-stories.ts`, `CaseStudies.svelte`, `Testimonials.svelte`, homepage and shared styling. Original quote data is unchanged.
+- Enquiries: `QuoteForm.svelte` adds on-demand Tally loading, frame focus and linked error feedback. `docs/enquiry-verification.json` records the single approved test and owner-confirmed inbox receipt.
+- Images: `photography.ts`, `optimized-media.json`, 91 generated files in `static/media/`, original references in `docs/photography-sources.json`, optional `scripts/optimize-media.mjs` and Amplify `customHttp.yml`.
+- Validation: product-card accessible names, `tests/media-manifest.test.mjs`, customer-story source check in `tests/quote-workflow.test.mjs` and the test command in `package.json`.
+- Reports and handoff: `README.md`, `docs/QUALITY-REPORT.md`, `docs/quality-results.json`, `docs/CONTENT-INTAKE.md` and `docs/IMPLEMENTATION-REPORT.md`.

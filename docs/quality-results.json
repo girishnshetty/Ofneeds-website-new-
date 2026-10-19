@@ -1,0 +1,157 @@
+{
+  "date": "2026-10-20",
+  "scope": "Local production build; mobile lab samples, not production field measurements or WCAG certification",
+  "pages": [
+    {
+      "page": "home",
+      "localUrl": "http://127.0.0.1:5175/",
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-19T18:57:32.243Z",
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "scores": {
+        "performance": 91,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 1839.1404999999997,
+          "display": "1.8 s"
+        },
+        "largest-contentful-paint": {
+          "value": 2407.9215000000004,
+          "display": "2.4 s"
+        },
+        "total-blocking-time": {
+          "value": 281.9270000000006,
+          "display": "280 ms"
+        },
+        "cumulative-layout-shift": {
+          "value": 0,
+          "display": "0"
+        }
+      },
+      "labelContentNameMatch": 1,
+      "externalRequests": 0,
+      "runtimeWarnings": [
+        "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+      ]
+    },
+    {
+      "page": "product",
+      "localUrl": "http://127.0.0.1:5175/products/notebooks",
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-19T18:45:05.015Z",
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 1415.8889999999997,
+          "display": "1.4 s"
+        },
+        "largest-contentful-paint": {
+          "value": 2022.4447500000006,
+          "display": "2.0 s"
+        },
+        "total-blocking-time": {
+          "value": 64,
+          "display": "60 ms"
+        },
+        "cumulative-layout-shift": {
+          "value": 0,
+          "display": "0"
+        }
+      },
+      "labelContentNameMatch": 1,
+      "externalRequests": 0,
+      "runtimeWarnings": [
+        "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+      ]
+    },
+    {
+      "page": "catalogues",
+      "localUrl": "http://127.0.0.1:5175/catalogues",
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-19T18:45:22.244Z",
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 1346.2344000000003,
+          "display": "1.3 s"
+        },
+        "largest-contentful-paint": {
+          "value": 2212.886800000001,
+          "display": "2.2 s"
+        },
+        "total-blocking-time": {
+          "value": 9.00000000000017,
+          "display": "10 ms"
+        },
+        "cumulative-layout-shift": {
+          "value": 0,
+          "display": "0"
+        }
+      },
+      "labelContentNameMatch": 1,
+      "externalRequests": 0,
+      "runtimeWarnings": []
+    },
+    {
+      "page": "contact",
+      "localUrl": "http://127.0.0.1:5175/contact",
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-19T18:48:34.725Z",
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 1275.3685,
+          "display": "1.3 s"
+        },
+        "largest-contentful-paint": {
+          "value": 1813.9212499999999,
+          "display": "1.8 s"
+        },
+        "total-blocking-time": {
+          "value": 24,
+          "display": "20 ms"
+        },
+        "cumulative-layout-shift": {
+          "value": 0,
+          "display": "0"
+        }
+      },
+      "labelContentNameMatch": null,
+      "externalRequests": 0,
+      "runtimeWarnings": []
+    }
+  ],
+  "media": {
+    "records": 16,
+    "variants": 91,
+    "matchedSmallVariantsBeforeBytes": 424166,
+    "matchedSmallVariantsAfterBytes": 284332,
+    "reductionPercent": 33
+  }
+}

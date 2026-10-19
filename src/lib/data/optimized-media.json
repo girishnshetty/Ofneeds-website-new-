@@ -1,0 +1,146 @@
+{
+  "catalogueDrinkware": {
+    "src": "/media/catalogueDrinkware-900.94042254c0b0.webp",
+    "srcset": "/media/catalogueDrinkware-240.075ba191d9ef.webp 240w, /media/catalogueDrinkware-360.31ae5a3ea851.webp 360w, /media/catalogueDrinkware-480.ba8a590494f0.webp 480w, /media/catalogueDrinkware-720.fbfad1a62dc9.webp 720w, /media/catalogueDrinkware-900.94042254c0b0.webp 900w",
+    "width": 900,
+    "height": 637,
+    "alt": "Bottles, tumblers and mugs from the supplied UG Drinkware catalogue",
+    "position": "50% 50%",
+    "fit": "contain"
+  },
+  "cataloguePens": {
+    "src": "/media/cataloguePens-900.c167eb6064c9.webp",
+    "srcset": "/media/cataloguePens-240.be7f36d147f3.webp 240w, /media/cataloguePens-360.58384b77778f.webp 360w, /media/cataloguePens-480.0721caea6f69.webp 480w, /media/cataloguePens-720.c5a20ae6c1c6.webp 720w, /media/cataloguePens-900.c167eb6064c9.webp 900w",
+    "width": 900,
+    "height": 637,
+    "alt": "Writing instruments from the supplied UG Pens catalogue",
+    "position": "50% 50%",
+    "fit": "contain"
+  },
+  "welcome": {
+    "src": "/media/welcome-960.0f1eca500943.webp",
+    "srcset": "/media/welcome-240.a18c1a692130.webp 240w, /media/welcome-360.277277723cfd.webp 360w, /media/welcome-480.963b383d3ab7.webp 480w, /media/welcome-720.afdc36c7a071.webp 720w, /media/welcome-960.0f1eca500943.webp 960w, /media/welcome-1066.c41870d369fa.webp 1066w",
+    "width": 960,
+    "height": 960,
+    "alt": "Corporate employee welcome kit with a polo shirt, backpack, bottle, notebook, pen and desk accessories",
+    "position": "50% 50%",
+    "fit": "contain"
+  },
+  "apparel": {
+    "src": "/media/apparel-960.5284a5c1ff9e.webp",
+    "srcset": "/media/apparel-240.5722bb33e127.webp 240w, /media/apparel-360.4da6beb82d76.webp 360w, /media/apparel-480.07d73425b29a.webp 480w, /media/apparel-720.79c084164699.webp 720w, /media/apparel-960.5284a5c1ff9e.webp 960w, /media/apparel-1440.67007f50c812.webp 1440w",
+    "width": 960,
+    "height": 639,
+    "alt": "Illustrative black and sage cotton T-shirts styled on a light surface",
+    "position": "50% 50%",
+    "fit": "cover"
+  },
+  "drinkware": {
+    "src": "/media/drinkware-960.2171a0374379.webp",
+    "srcset": "/media/drinkware-240.fa85a05cee44.webp 240w, /media/drinkware-360.f99f4c41d9e5.webp 360w, /media/drinkware-480.0f6f5fdbc8f6.webp 480w, /media/drinkware-720.80bd835a3d0c.webp 720w, /media/drinkware-960.2171a0374379.webp 960w, /media/drinkware-1440.e885cf02b19f.webp 1440w",
+    "width": 960,
+    "height": 640,
+    "alt": "Illustrative stainless steel reusable bottle in a clean tabletop setting",
+    "position": "50% 50%",
+    "fit": "cover"
+  },
+  "notebooks": {
+    "src": "/media/notebooks-900.d04e53d38f96.webp",
+    "srcset": "/media/notebooks-240.1c1e5090918e.webp 240w, /media/notebooks-360.64932a2e2172.webp 360w, /media/notebooks-480.35d48658141a.webp 480w, /media/notebooks-720.56862a95d0e1.webp 720w, /media/notebooks-900.d04e53d38f96.webp 900w",
+    "width": 900,
+    "height": 900,
+    "alt": "Black and ivory notebooks with matching pens from the iScape catalogue",
+    "position": "50% 50%",
+    "fit": "contain"
+  },
+  "awards": {
+    "src": "/media/awards-960.50a5a64eaa5e.webp",
+    "srcset": "/media/awards-240.08ce7f94779c.webp 240w, /media/awards-360.8b7ca9a33e57.webp 360w, /media/awards-480.faf49ffa2a44.webp 480w, /media/awards-720.a6fb1f037a51.webp 720w, /media/awards-960.50a5a64eaa5e.webp 960w, /media/awards-1440.81b8b046da29.webp 1440w",
+    "width": 960,
+    "height": 1440,
+    "alt": "Illustrative gold recognition trophies in a softly lit arrangement",
+    "position": "50% 65%",
+    "fit": "cover"
+  },
+  "backpacks": {
+    "src": "/media/backpacks-960.959440a24ba4.webp",
+    "srcset": "/media/backpacks-240.f05ac5c827f0.webp 240w, /media/backpacks-360.3e4455ee52af.webp 360w, /media/backpacks-480.9b94dc379a9a.webp 480w, /media/backpacks-720.bcec19dd338f.webp 720w, /media/backpacks-960.959440a24ba4.webp 960w, /media/backpacks-1440.710420a23679.webp 1440w",
+    "width": 960,
+    "height": 1440,
+    "alt": "Illustrative black backpack and travel bottle on a wooden bench",
+    "position": "50% 45%",
+    "fit": "cover"
+  },
+  "tech": {
+    "src": "/media/tech-960.fd07b6066360.webp",
+    "srcset": "/media/tech-240.2db6e056567b.webp 240w, /media/tech-360.fe502fc575df.webp 360w, /media/tech-480.ce1010cc1bdb.webp 480w, /media/tech-720.8790d2977b6d.webp 720w, /media/tech-960.fd07b6066360.webp 960w, /media/tech-1440.8b077f19be95.webp 1440w",
+    "width": 960,
+    "height": 1440,
+    "alt": "Illustrative headphones and keyboard in a modern workspace",
+    "position": "50% 25%",
+    "fit": "cover"
+  },
+  "executive": {
+    "src": "/media/executive-960.579889b77bd9.webp",
+    "srcset": "/media/executive-240.a3e4d33458c8.webp 240w, /media/executive-360.0cdf084a9b57.webp 360w, /media/executive-480.c9efca2261a8.webp 480w, /media/executive-720.e06f41216ec8.webp 720w, /media/executive-960.579889b77bd9.webp 960w, /media/executive-1440.765d96aff3bc.webp 1440w",
+    "width": 960,
+    "height": 640,
+    "alt": "Illustrative leather notebook and pen on a wooden desk",
+    "position": "50% 50%",
+    "fit": "cover"
+  },
+  "events": {
+    "src": "/media/events-960.db85c9d27738.webp",
+    "srcset": "/media/events-240.0f282f00955f.webp 240w, /media/events-360.267880e1dcdd.webp 360w, /media/events-480.a995b32d5fcc.webp 480w, /media/events-720.7efe969b5bf3.webp 720w, /media/events-960.db85c9d27738.webp 960w, /media/events-1440.9f30d30cf99c.webp 1440w",
+    "width": 960,
+    "height": 641,
+    "alt": "Colleagues exchanging a coordinated branded merchandise box in a modern office",
+    "position": "60% 50%",
+    "fit": "cover"
+  },
+  "caps": {
+    "src": "/media/caps-960.3e33b1a366b4.webp",
+    "srcset": "/media/caps-240.3ea809da2234.webp 240w, /media/caps-360.494edcc3219e.webp 360w, /media/caps-480.c0e54c2583cf.webp 480w, /media/caps-720.188ffca08da0.webp 720w, /media/caps-960.3e33b1a366b4.webp 960w, /media/caps-1440.d292a7006b33.webp 1440w",
+    "width": 960,
+    "height": 1277,
+    "alt": "Illustrative unbranded white baseball cap on a light studio background",
+    "position": "50% 58%",
+    "fit": "cover"
+  },
+  "festive": {
+    "src": "/media/festive-960.dbfc5a61d619.webp",
+    "srcset": "/media/festive-240.89a7eaa3e91d.webp 240w, /media/festive-360.a137e652faf9.webp 360w, /media/festive-480.8f1e28e9104e.webp 480w, /media/festive-720.72bf14a4ca20.webp 720w, /media/festive-960.dbfc5a61d619.webp 960w, /media/festive-1440.1ee13acc2737.webp 1440w",
+    "width": 960,
+    "height": 960,
+    "alt": "Illustrative festive gift box with an arranged selection of sweets",
+    "position": "50% 20%",
+    "fit": "cover"
+  },
+  "eco": {
+    "src": "/media/eco-960.a9d02b796da2.webp",
+    "srcset": "/media/eco-240.ce5b8b4e3bd3.webp 240w, /media/eco-360.3f26b5d1c1fa.webp 360w, /media/eco-480.35b9af9fc689.webp 480w, /media/eco-720.e17e4da5741c.webp 720w, /media/eco-960.a9d02b796da2.webp 960w, /media/eco-1440.12325cdb53fe.webp 1440w",
+    "width": 960,
+    "height": 1280,
+    "alt": "Illustrative reusable canvas tote with books and dried flowers",
+    "position": "50% 75%",
+    "fit": "cover"
+  },
+  "custom": {
+    "src": "/media/custom-684.4acdedddd915.webp",
+    "srcset": "/media/custom-240.fa859228cf88.webp 240w, /media/custom-360.cc08f8544fd3.webp 360w, /media/custom-480.091efdf7dab2.webp 480w, /media/custom-684.4acdedddd915.webp 684w",
+    "width": 684,
+    "height": 524,
+    "alt": "Personalized black gift set with a notebook, wallet, key ring, pen, mug and insulated bottle in a fitted presentation box",
+    "position": "50% 50%",
+    "fit": "contain"
+  },
+  "jackets": {
+    "src": "/media/jackets-960.e6399940ecb0.webp",
+    "srcset": "/media/jackets-240.48f572ed4912.webp 240w, /media/jackets-360.5b1d10beb924.webp 360w, /media/jackets-480.eecff1e7ce9a.webp 480w, /media/jackets-720.33d8abdcc8b4.webp 720w, /media/jackets-960.e6399940ecb0.webp 960w, /media/jackets-1440.501de14aa62e.webp 1440w",
+    "width": 960,
+    "height": 1440,
+    "alt": "Illustrative black jacket on a hanger in a minimal setting",
+    "position": "50% 50%",
+    "fit": "cover"
+  }
+}
