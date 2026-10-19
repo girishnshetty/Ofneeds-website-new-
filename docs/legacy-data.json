@@ -1,0 +1,49 @@
+{
+  "provenance": "Original project homepage, before the October 2026 upgrade. Metrics require owner confirmation before republishing.",
+  "navigation": [
+    {
+      "href": "#why-ofneeds",
+      "label": "Why choose us"
+    },
+    {
+      "href": "#pricing",
+      "label": "Packages"
+    },
+    {
+      "href": "#products",
+      "label": "Product range"
+    },
+    {
+      "href": "#contact",
+      "label": "Contact"
+    }
+  ],
+  "features": [
+    {
+      "title": "Brand-first curation",
+      "description": "Every item is selected to match your brand voice, audience, and budget so each gift feels intentional."
+    },
+    {
+      "title": "Fast production & dispatch",
+      "description": "From design lock to doorstep, our workflow is built for dependable timelines and clear updates."
+    },
+    {
+      "title": "Premium finish at scale",
+      "description": "We balance quality and consistency across small founder teams and large enterprise batches alike."
+    }
+  ],
+  "metrics": [
+    {
+      "label": "Clients",
+      "value": "30+"
+    },
+    {
+      "label": "Kits Delivered",
+      "value": "10K+"
+    },
+    {
+      "label": "Years Experience",
+      "value": "6+"
+    }
+  ]
+}
