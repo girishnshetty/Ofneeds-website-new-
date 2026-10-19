@@ -73,7 +73,8 @@ assert.ok(!robots.includes('Disallow: /'));
 const home = documents.get('/');
 assert.ok(home.includes('tally.so/r/OD0ZV7'));
 assert.ok(home.includes('wa.me/917090795666'));
-assert.ok(home.includes('₹499') && home.includes('₹999'));
+assert.ok(home.includes('₹599') && home.includes('₹1,099'));
+for (const [route, html] of documents) assert.ok(!/₹(?:499|999)(?!\d)/.test(html), 'No superseded package prices: ' + route);
 for (const name of [
 	'Gladwin Bosco',
 	'Krishna Murthy',

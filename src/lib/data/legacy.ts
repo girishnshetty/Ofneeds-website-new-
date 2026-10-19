@@ -16,14 +16,14 @@ type Logo = { src: string; alt: string };
 export const welcomeKits: Kit[] = [
 	{
 		name: 'Package 1',
-		price: '₹499',
+		price: '₹599',
 		description: 'A high-value starter kit for everyday onboarding moments.',
 		inclusions: ['T-Shirt', 'Premium NoteBook', 'Pen', 'Welcome Card'],
 		highlight: false
 	},
 	{
 		name: 'Package 2',
-		price: '₹999',
+		price: '₹1,099',
 		description: 'An elevated welcome experience for high-impact first impressions.',
 		inclusions: ['Polo T-Shirt', 'Executive NoteBook', 'Pen', 'Sipper Bottle'],
 		highlight: true

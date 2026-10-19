@@ -111,7 +111,7 @@ export const faqs = [
 	{
 		question: 'Do you provide employee welcome kits?',
 		answer:
-			'Yes. Our existing welcome-kit packages include a ₹499 kit and a ₹999 kit. You can also discuss a tailored kit with apparel, stationery, drinkware and other work essentials.'
+			'Yes. Our existing welcome-kit packages include a ₹599 kit and a ₹1,099 kit. You can also discuss a tailored kit with apparel, stationery, drinkware and other work essentials.'
 	},
 	{
 		question: 'Can we build our own gift kit?',

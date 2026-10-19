@@ -46,7 +46,7 @@ The integration suite starts a separate preview on port 5180 and a local mock re
 ## Maintain content
 
 - `src/lib/data/product-types.ts`: product-type selections and optional verified specifications/gallery fields.
-- `src/lib/data/products.ts`: package prices and budget classification. Only the two user-confirmed advertised kit prices (₹499/₹999) are used. No live stock, individual-model prices or MOQs are inferred.
+- `src/lib/data/products.ts`: package prices and budget classification. Only the two user-confirmed advertised kit prices (₹599/₹1,099, updated 20 October 2026) are used. No live stock, individual-model prices or MOQs are inferred.
 - `src/lib/data/categories.ts`: existing category links; `catalog.ts` retains category landing content and compatibility exports.
 - `src/lib/data/catalogues.json`: untouched supplier source manifest. The audit generates `catalogue-review.json` and `docs/CATALOGUE-REVIEW.md`; all 97 source IDs are retained.
 - `src/lib/data/brand-references.json`: names and categories supported by retained source IDs, without authorization claims. Update these references when the catalogue manifest changes.

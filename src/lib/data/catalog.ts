@@ -96,14 +96,14 @@ export const landingPages: LandingPage[] = [
 	make(
 		'employee-welcome-kits-bangalore',
 		'Employee Welcome Kits in Bangalore | Custom Joining Kits',
-		'Create custom employee welcome kits in Bangalore with OfNeeds. Compare existing ₹499 and ₹999 packages or build a joining kit around your team and budget.',
+		'Create custom employee welcome kits in Bangalore with OfNeeds. Compare existing ₹599 and ₹1,099 packages or build a joining kit around your team and budget.',
 		'Employee Welcome Kits in Bangalore',
 		'Make a new colleague’s first day feel considered. Choose an existing package or build an onboarding kit around your culture, budget and everyday work essentials.',
 		['T-Shirts', 'Notebooks', 'Steel Sipper Bottle', 'Backpacks'],
 		[
 			[
 				'Two existing packages, a flexible starting point',
-				'The ₹499 package includes a T-Shirt, Premium NoteBook, Pen and Welcome Card. The ₹999 package includes a Polo T-Shirt, Executive NoteBook, Pen and Sipper Bottle. Confirm current specifications and the complete order quotation with our team.'
+				'The ₹599 package includes a T-Shirt, Premium NoteBook, Pen and Welcome Card. The ₹1,099 package includes a Polo T-Shirt, Executive NoteBook, Pen and Sipper Bottle. Confirm current specifications and the complete order quotation with our team.'
 			],
 			[
 				'Plan for your onboarding rhythm',

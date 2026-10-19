@@ -30,9 +30,9 @@ test('quote summary retains independent per-product quantities', () => {
 });
 test('budget filters never classify unpriced product types or invent package prices', () => {
 	assert.equal(productSelections.length, 10);
-	assert.deepEqual(productSelections.filter((p) => matchesBudget(p, 'under-500')).map((p) => p.price), [499]);
-	assert.deepEqual(productSelections.filter((p) => matchesBudget(p, '500-1000')).map((p) => p.price), [999]);
-	assert.equal(productSelections.filter((p) => matchesBudget(p, '1000-2000')).length, 0);
+	assert.deepEqual(productSelections.filter((p) => matchesBudget(p, 'under-500')).map((p) => p.price), []);
+	assert.deepEqual(productSelections.filter((p) => matchesBudget(p, '500-1000')).map((p) => p.price), [599]);
+	assert.deepEqual(productSelections.filter((p) => matchesBudget(p, '1000-2000')).map((p) => p.price), [1099]);
 	assert.equal(productSelections.filter((p) => p.price !== null).length, 2);
 });
 test('catalogue grouping retains every original ID and hides historical empty download actions', () => {
