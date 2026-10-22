@@ -7,10 +7,13 @@ Svelte 5 + SvelteKit 2, TypeScript, Vite and Tailwind. The existing Amplify adap
 Tested with Node.js 24.13.0 and npm 11.6.2. Bun was not installed on this computer, so the included npm lockfile is the tested installation path.
 
 ```powershell
-cd 'C:\Users\GirisH\OneDrive\Documents\ChatGPT\ofneeds-b2b\ofneeds-source-preview'
+git clone https://github.com/girishnshetty/Ofneeds-website-new-.git
+cd Ofneeds-website-new-
 npm.cmd ci
 npm.cmd run dev -- --host 127.0.0.1 --port 5174 --strictPort
 ```
+
+For the existing local preview checkout, run the same npm commands from `ofneeds-source-preview` without cloning again.
 
 Open http://127.0.0.1:5174/. Stop a foreground server with Ctrl+C.
 
