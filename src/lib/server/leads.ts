@@ -10,6 +10,7 @@ export const leadStatuses = [
 ] as const;
 export type LeadStatus = (typeof leadStatuses)[number];
 export type Lead = {
+	enquiryType: 'buyer' | 'supplier' | 'other';
 	leadId: string;
 	createdAt: string;
 	name: string;
@@ -17,7 +18,7 @@ export type Lead = {
 	email: string;
 	phone: string;
 	productRequirement: string;
-	quantity: number;
+	quantity: number | null;
 	budget: number | null;
 	deliveryDate: string | null;
 	deliveryCity: string;

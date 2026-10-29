@@ -129,6 +129,12 @@ select:focus-visible { outline: 3px solid #467fb1; outline-offset: 3px; }
 .whatsapp-float.editing { visibility: hidden; }
 .footer-brand > p { font-size: 12px; margin-top: 18px; }
 .catalogue-status { font-size: 12px; }
+.enquiry-audience { border:0; padding:0; margin:0 0 23px; min-width:0; }
+.enquiry-audience legend { font-size:13px; font-weight:650; margin-bottom:12px; }
+.enquiry-audience > div { display:flex; flex-wrap:wrap; gap:8px; }
+.enquiry-audience label { display:flex; align-items:center; gap:8px; padding:11px 13px; border:1px solid var(--line); border-radius:6px; font-size:11px; min-height:44px; cursor:pointer; }
+.enquiry-audience label.chosen { background:#edf4f1; border-color:#799e8d; color:#255b49; }
+.enquiry-audience input { width:14px; height:14px; min-height:14px; accent-color:#285e4e; }
 @media (max-width: 1200px) { .nav-row { gap: 16px; } .nav-row nav { gap: 14px; } .enterprise-hero-grid { gap: 35px; } .selection-copy { padding: 20px; } .budget-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 @media (max-width: 1100px) { .nav-row nav { align-items: stretch; gap: 0; } .nav-row nav > a { min-height: 46px; } .nav-row { min-height: 78px; } .quote-layout { gap: 36px; } .quote-section .quote-panel { padding: 24px; } .client-logo-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); row-gap: 26px; } }
 @media (max-width: 900px) { .selection-grid, .review-grid, .occasion-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .product-detail-layout { gap: 30px; } .quote-layout { grid-template-columns: 1fr; } .quote-intro { position: static; max-width: 660px; } .discovery-toolbar { grid-template-columns: 1fr 1fr; } .discovery-toolbar > label:first-child { grid-column: 1 / -1; } }

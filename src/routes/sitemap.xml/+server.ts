@@ -4,6 +4,7 @@ import { brands, articles } from '$lib/data/editorial';
 import { canonical } from '$lib/seo';
 import { seoFor } from '$lib/data/seo-pages';
 import { productSelections } from '$lib/data/products';
+import { giftBrands } from '$lib/gift-card-brands';
 import type { RequestHandler } from './$types';
 const escapeXml = (value: string) =>
 	value.replace(
@@ -18,14 +19,20 @@ export const GET: RequestHandler = () => {
 		'/contact',
 		'/catalogues',
 		'/products',
+		'/gift-cards',
+		...giftBrands.map(brand => brand.href),
 		...productSelections.map((product) => product.href),
 		...landingPages.map((page) => '/' + page.slug),
 		...Object.keys(contentPages).map((slug) => '/' + slug),
 		...brands.filter((brand) => brand.verified).map((brand) => '/brands/' + brand.slug),
 		...articles.filter((article) => article.published).map((article) => '/insights/' + article.slug)
 	];
+	const entries = paths.map(path => {
+		const updated = seoFor(path)?.updated;
+		return `<url><loc>${escapeXml(canonical(path))}</loc>${updated ? `<lastmod>${escapeXml(updated)}</lastmod>` : ''}</url>`;
+	});
 	return new Response(
-		`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${paths.map((path) => `<url><loc>${escapeXml(canonical(path))}</loc>${seoFor(path)?.updated ? `<lastmod>${escapeXml(seoFor(path).updated)}</lastmod>` : ''}</url>`).join('')}</urlset>`,
+		`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${entries.join('')}</urlset>`,
 		{
 			headers: {
 				'Content-Type': 'application/xml; charset=utf-8',

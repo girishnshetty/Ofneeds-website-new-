@@ -1,0 +1,5628 @@
+{
+  "source": "https://giftcardxpert.com/site/gifts",
+  "country": "India",
+  "currency": "INR",
+  "checked": "2026-10-29",
+  "listings": [
+    {
+      "sourceId": "1209",
+      "name": "Veromoda",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000,
+        3000,
+        5000,
+        7500
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/92.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/da22d3af202b006d.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1210",
+      "name": "W",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/143.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/234f4748c2373575.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1211",
+      "name": "Wildcraft",
+      "denominations": [
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/437.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/33dd5543ad389009.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1212",
+      "name": "William Penn",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/81.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/c8c6bb5278379de2.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1213",
+      "name": "Wonderchef",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/460.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/005671b69eef8f75.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1214",
+      "name": "Woodland",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Woodland_19g615mth8vyxc?width=150",
+      "logo": {
+        "src": "/gift-card-logos/b4afdaa13f79a915.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1215",
+      "name": "Yatra.com",
+      "denominations": [
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/84.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/9d27d2435375b590.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1216",
+      "name": "Zee5",
+      "denominations": [
+        399,
+        699
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Zee5_dwa123mcu9q2br?width=150",
+      "logo": {
+        "src": "/gift-card-logos/bc57831ed830b977.webp",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12544",
+      "name": "CHARLES & KEITH",
+      "denominations": [
+        500,
+        1000,
+        1500,
+        2000,
+        2500,
+        3000,
+        5000,
+        7500,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/66555.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/534125ee77b86b1d.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12545",
+      "name": "ColorPlus",
+      "denominations": [
+        500,
+        1000,
+        1500,
+        2000,
+        2500,
+        3000,
+        5000,
+        7500,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/logo_logo1728462584.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/21e30dacebb4d6bc.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12546",
+      "name": "Daily Objects",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/202.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/cf054bc710a540c3.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12547",
+      "name": "Discovery Plus",
+      "denominations": [
+        499
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/558.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/dda1b580324f90d2.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12548",
+      "name": "DPauls Travel & Tours",
+      "denominations": [
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/656.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/f81291dafe1e0993.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12549",
+      "name": "EatSure",
+      "denominations": [
+        250,
+        500,
+        1000,
+        1500,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/490.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/5004dacf601ecd46.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12550",
+      "name": "Elver",
+      "denominations": [
+        50,
+        250,
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/logo_logo1738923342.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/4957e75c69d41a10.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12551",
+      "name": "Faasos",
+      "denominations": [
+        500,
+        1000,
+        1500,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/66541.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/cc6c87d304cb22f8.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12552",
+      "name": "Fashion Factory",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        3000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/633.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/fc5a70f4ef737b38.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12553",
+      "name": "Fastrack Smartwatches",
+      "denominations": [
+        1000,
+        1500,
+        2000,
+        2500,
+        3000,
+        3500,
+        4000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/logo_2024-12-04t11_30_291733819776.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/51800691fdf26ce3.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12555",
+      "name": "Flower Aura",
+      "denominations": [
+        500,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/650.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/3210f3e971c2041a.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12556",
+      "name": "Forever21",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        2500,
+        3000,
+        5000
+      ],
+      "logoSource": "https://cdn.gyftr.com/comm_engine/prod/images/brands/1709876304371_wqp7nasalti87cab.png",
+      "logo": {
+        "src": "/gift-card-logos/dc4ec7db34121202.png",
+        "width": 178,
+        "height": 136,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12557",
+      "name": "Foxtale",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/logo_logo1732773456.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/c152a8ecd7fd91fd.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12558",
+      "name": "FRIDO",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/FRIDO_3odr9172m9ct3x1i?width=150",
+      "logo": {
+        "src": "/gift-card-logos/c487cf9b02dd9d1a.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12559",
+      "name": "FUTURE WORLD - APPLE RESELLER",
+      "denominations": [
+        1000,
+        2500,
+        5000,
+        7500,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/logo_fw1730115164.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/a3f5e7ab2471857d.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12560",
+      "name": "Gaana",
+      "denominations": [
+        99,
+        599
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/374.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/0406fc23b359ef07.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12561",
+      "name": "GIVA Gold Jewellery",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        2500,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/GIVA%20Gold%20Jewellery_fio9simgexy2xl?width=150",
+      "logo": {
+        "src": "/gift-card-logos/6064858675550161.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12562",
+      "name": "GIVA Silver Coin",
+      "denominations": [
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/GIVA%20Silver%20Coin_fio9simgexyhyg?width=150",
+      "logo": {
+        "src": "/gift-card-logos/6064858675550161.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12563",
+      "name": "GRT Jewellers",
+      "denominations": [
+        1000,
+        2500,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/646.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/7bb94dc7e548d54e.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12564",
+      "name": "Hindustan Times Premium",
+      "denominations": [
+        1199
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/66582.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/13f2f784d1d9508f.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12565",
+      "name": "HP Pay",
+      "denominations": [
+        100,
+        250,
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/604.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/251aea593d808169.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12566",
+      "name": "IGP",
+      "denominations": [
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/606.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/723cd7ac8742d34e.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12567",
+      "name": "Ikea",
+      "denominations": [
+        1000,
+        1500,
+        2500,
+        3000,
+        7500
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Ikea_h2wid1a2m9celbc4?width=150",
+      "logo": {
+        "src": "/gift-card-logos/1ff2b6577427832f.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12568",
+      "name": "Inglot",
+      "denominations": [
+        500,
+        1000,
+        1500,
+        2000,
+        2500,
+        3000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/66556.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/7c59b4690fd2eade.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12569",
+      "name": "Innovist",
+      "denominations": [
+        50,
+        250,
+        500,
+        750,
+        1000
+      ],
+      "logoSource": "https://innovist.com/cdn/shop/files/Final_Innovist_Logo-04.png?v=1706178919&width=300",
+      "logo": {
+        "src": "/gift-card-logos/5d30269c9a0c9903.png",
+        "width": 300,
+        "height": 34,
+        "dark": true
+      }
+    },
+    {
+      "sourceId": "12570",
+      "name": "INTERMILES",
+      "denominations": [
+        2500
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/644.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/03782478051e27a8.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12572",
+      "name": "Ixigo",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        2500,
+        3000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/653.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/9dc4ba717977c9c0.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12573",
+      "name": "JioHotstar",
+      "denominations": [
+        1099,
+        2199
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/logo_logo1739528215.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/8c279d4a723ee04e.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12574",
+      "name": "LENSKART",
+      "denominations": [
+        1000,
+        2000,
+        2500,
+        3000,
+        5000,
+        7500,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/logo_logo1734501400.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/fef9c3bfdf2031dd.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12575",
+      "name": "Louis Philippe",
+      "denominations": [
+        250,
+        500,
+        1000,
+        1500,
+        2000,
+        2500,
+        3000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Louis%20Philippe_g3hpkm6jmcynm3yz?width=150",
+      "logo": {
+        "src": "/gift-card-logos/a18c116142d48274.webp",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12576",
+      "name": "Love Beauty & Planet",
+      "denominations": [
+        500,
+        1000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/538.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/886d5790bfdbad0e.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12577",
+      "name": "Lunch Box",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/66550.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/ee1a271132240334.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12578",
+      "name": "Malabar Diamonds",
+      "denominations": [
+        2000,
+        2500,
+        3000,
+        5000,
+        7500,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/66573.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/8670c785bf8a4a9b.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12579",
+      "name": "Malabar Gold Coin",
+      "denominations": [
+        2000,
+        2500,
+        3000,
+        5000,
+        7500,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/290.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/8670c785bf8a4a9b.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12580",
+      "name": "Malabar Jewellery",
+      "denominations": [
+        2000,
+        3000,
+        5000,
+        7500,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/66574.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/8670c785bf8a4a9b.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12581",
+      "name": "Mamaearth",
+      "denominations": [
+        500,
+        1000,
+        1500,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/624.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/a00204f4579e4ed7.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12582",
+      "name": "Marks & Spencer",
+      "denominations": [
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/logo_marks-and-spencer1736318945.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/7cabd5c00a323326.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12583",
+      "name": "Matrix",
+      "denominations": [
+        1000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/logo_logo1736412897.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/bc10520bb186f106.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12584",
+      "name": "Mediwheel",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000,
+        2500,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/logo_logo1735538694.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/846cc280dc8ac59e.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12586",
+      "name": "Muthoot Gold Voucher",
+      "denominations": [
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/640.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/62455dd01c191c4c.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12587",
+      "name": "Nat Habit",
+      "denominations": [
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Nat%20Habit_omaod18umca4ms34?width=150",
+      "logo": {
+        "src": "/gift-card-logos/abc5b0a97762e7a2.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12588",
+      "name": "OTTplay",
+      "denominations": [
+        249,
+        299,
+        1499
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/6641.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/90cc070a5b84f54f.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12589",
+      "name": "Oven Story",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/66540.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/f5fa864ce6a19a30.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12590",
+      "name": "Park Avenue",
+      "denominations": [
+        500,
+        1000,
+        1500,
+        2000,
+        2500,
+        3000,
+        5000,
+        7500,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/logo_logo1728462732.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/4f746453e9c13f84.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12591",
+      "name": "Parx",
+      "denominations": [
+        500,
+        1000,
+        1500,
+        2000,
+        2500,
+        3000,
+        5000,
+        7500,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/logo_logo1733140652.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/af7dfea01a6b783f.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12592",
+      "name": "Peter England",
+      "denominations": [
+        250,
+        500,
+        1000,
+        1500,
+        2000,
+        2500,
+        5000
+      ],
+      "logoSource": "https://cdn.gyftr.com/comm_engine/prod/images/brands/1593757621129_mp94a1kc5u4yvd.png",
+      "logo": {
+        "src": "/gift-card-logos/cb76e04f5a3c909d.png",
+        "width": 166,
+        "height": 80,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12593",
+      "name": "Pigeon",
+      "denominations": [
+        100,
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/logo_logo1732771123.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/360a94c88c137061.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12594",
+      "name": "Planet Fashion",
+      "denominations": [
+        250,
+        500,
+        1000,
+        1500,
+        2000,
+        2500,
+        4000,
+        5000,
+        7500
+      ],
+      "logoSource": "https://cdn.gyftr.com/comm_engine/prod/images/brands/1593636231817_mp930gkc3tv6a1.png",
+      "logo": {
+        "src": "/gift-card-logos/ed24d3363fd71307.png",
+        "width": 167,
+        "height": 80,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12595",
+      "name": "R&B",
+      "denominations": [
+        500,
+        1000,
+        1500,
+        2000,
+        2500,
+        3000,
+        5000,
+        7500,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/66559.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/754d291290a48554.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12596",
+      "name": "Rangriti",
+      "denominations": [
+        500,
+        1000,
+        1500,
+        2000,
+        4000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/logo_rangriti1734327932.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/1484e0132b7d32de.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12597",
+      "name": "Raymond - Ready to Wear",
+      "denominations": [
+        500,
+        1000,
+        1500,
+        2000,
+        2500,
+        3000,
+        5000,
+        7500,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/66619.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/c4b56ab5f5567e56.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12598",
+      "name": "Reliance Digital",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000,
+        7500,
+        9999
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/402.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/71ad1f5f706f9c14.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12600",
+      "name": "Reliance My Jio Store",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/401.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/884e309bedfda620.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12601",
+      "name": "Reliance Smart Point",
+      "denominations": [
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/405.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/5926952daa7c0659.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12602",
+      "name": "Samsonite",
+      "denominations": [
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/549.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/1b35e56510b38547.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12603",
+      "name": "Shiva Organic",
+      "denominations": [
+        500,
+        1000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/logo_logo1729847880.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/29c4ed0cc8a3cb36.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12604",
+      "name": "Simon Carter",
+      "denominations": [
+        250,
+        1500,
+        2500,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Simon%20Carter_dwa123mcu9sq1o?width=150",
+      "logo": {
+        "src": "/gift-card-logos/d6f0dcf054fb80aa.webp",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12605",
+      "name": "Smile Foundation",
+      "denominations": [
+        500,
+        1000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/564.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/1d4643cc7e783202.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12606",
+      "name": "Soch",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        2500,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Soch%20Apparels_3v3enb175maxwgogg?width=150",
+      "logo": {
+        "src": "/gift-card-logos/3263e72e89683945.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12607",
+      "name": "Starbucks",
+      "denominations": [
+        1000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/logo_logo1728293252.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/b0c44b6ef5326b38.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12609",
+      "name": "Superbottoms",
+      "denominations": [
+        500,
+        1000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/561.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/631acb74a4733a48.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12610",
+      "name": "Surat Diamonds",
+      "denominations": [
+        1000,
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/66580.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/de747cc52890b997.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12611",
+      "name": "Sweet Truth",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/491.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/c7a097fbb35c9211.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1092",
+      "name": "Amazon Shopping Voucher",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        3000,
+        4000,
+        5000
+      ],
+      "logoSource": "https://giftbig.s3.amazonaws.com/microsite/product/EGCGBASVBZOMS001/d/small_image/7741_microsite.png",
+      "logo": {
+        "src": "/gift-card-logos/32d6e6e9c7b38e9e.png",
+        "width": 200,
+        "height": 120,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12612",
+      "name": "Tattva Spa",
+      "denominations": [
+        1500,
+        2000,
+        2500,
+        3000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/logo_logo1738924178.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/0e3a7cd9ca6bf942.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1093",
+      "name": "Amazon Pay E-Gift Card",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        3000,
+        4000,
+        5000
+      ],
+      "logoSource": "https://giftbig.s3.amazonaws.com/microsite/product/EGCGBAPYBLUZONE001/d/small_image/9274_microsite.jpg",
+      "logo": {
+        "src": "/gift-card-logos/7bddf8684d83dbb1.jpg",
+        "width": 200,
+        "height": 120,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12613",
+      "name": "TEGO",
+      "denominations": [
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/581.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/85c5d1cf61b2ec99.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1094",
+      "name": "Apollo Pharmacy",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        2500,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Apollo%20Pharmacy_19g618mkxtg834?width=150",
+      "logo": {
+        "src": "/gift-card-logos/5036cfcbcf69b635.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12614",
+      "name": "The Good Bowl",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/602.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/5f6f96f56f0b8f83.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1095",
+      "name": "Archies Gallery",
+      "denominations": [
+        50,
+        100,
+        250,
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/6.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/e1aabd463911cfe9.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12615",
+      "name": "Titan Smartwatches",
+      "denominations": [
+        1000,
+        1500,
+        2000,
+        2500,
+        3000,
+        3500,
+        4000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/logo_2024-12-04t11_30_291733819633.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/d949f3c917e25405.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12616",
+      "name": "Valorant",
+      "denominations": [
+        435,
+        870
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Valorant_fwd8z65vm7yk43l6?width=150",
+      "logo": {
+        "src": "/gift-card-logos/d5daeae0544e5d29.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1097",
+      "name": "Aurelia",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/71.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/79287c0b14cddc13.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12617",
+      "name": "Van Heusen",
+      "denominations": [
+        250,
+        500,
+        1000,
+        1500,
+        2000,
+        2500,
+        3000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Van%20Heusen_g3hpkm6jmcynmy38?width=150",
+      "logo": {
+        "src": "/gift-card-logos/670a6d66f9b1ffbd.webp",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1098",
+      "name": "Auric",
+      "denominations": [
+        250,
+        500
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/500.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/46decf96d40101a4.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12618",
+      "name": "VICTORIA'S SECRET",
+      "denominations": [
+        1000,
+        1500,
+        2000,
+        7500,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/66558.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/f6b585494695dc50.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1099",
+      "name": "Barbeque Nation",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/421.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/823934316c2657bd.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12619",
+      "name": "VICTORIA'S SECRET BEAUTY",
+      "denominations": [
+        500,
+        1000,
+        1500,
+        2000,
+        2500,
+        3000,
+        5000,
+        7500,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/VICTORIA%27S%20SECRET%20BEAUTY_24jimgt74w63?width=150",
+      "logo": {
+        "src": "/gift-card-logos/e7803eadb7c31217.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1100",
+      "name": "Baskin Robbins",
+      "denominations": [
+        100,
+        200,
+        250,
+        500
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/34.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/0ccb5b2c18b6b1a1.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12620",
+      "name": "Vinci Botanicals",
+      "denominations": [
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Vinci%20Botanicals_1manb16rmbenyfts?width=150",
+      "logo": {
+        "src": "/gift-card-logos/c72383ccebb55f53.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1101",
+      "name": "Bata",
+      "denominations": [
+        100,
+        250,
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/8.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/622afb5b20ce96f4.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12621",
+      "name": "VROTT",
+      "denominations": [
+        599
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/VROTT_16wu69h5mdy3dsy0?width=150",
+      "logo": {
+        "src": "/gift-card-logos/fa3b6b1426a1a15a.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12622",
+      "name": "Wendy's",
+      "denominations": [
+        500,
+        1000,
+        1500,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/600.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/466e409480bdb2d3.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1103",
+      "name": "Beyoung",
+      "denominations": [
+        500,
+        1000,
+        1500,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Beyoung_h2wid1gem9719yc6?width=150",
+      "logo": {
+        "src": "/gift-card-logos/3ab2262904e1eec4.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12623",
+      "name": "Woggles",
+      "denominations": [
+        500,
+        1000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/643.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/27283cbc223aec05.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1104",
+      "name": "BigBasket",
+      "denominations": [
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/44.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/d4ff9d3375e8c230.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12624",
+      "name": "Wow!Chicken",
+      "denominations": [
+        100,
+        250,
+        500,
+        1000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/logo_wow-chicken-logo1728892633.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/4ea0010c3aace2ca.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1105",
+      "name": "Blaupunkt",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/26.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/f921183ed4bba226.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12625",
+      "name": "Wow!China",
+      "denominations": [
+        100,
+        250,
+        500,
+        1000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/444.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/1da95e304006aa90.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12626",
+      "name": "Wow!Momo",
+      "denominations": [
+        100,
+        250,
+        500,
+        1000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/443.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/fedd4670579d68c1.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1107",
+      "name": "BlueStone Diamond",
+      "denominations": [
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/logo_bluestone-logo_384x293pxl1729490777.jpg?width=150",
+      "logo": {
+        "src": "/gift-card-logos/e486058bb078df5c.jpg",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12883",
+      "name": "Cinepolis",
+      "denominations": [
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Cinepolis_19g618mqt1lblf?width=150",
+      "logo": {
+        "src": "/gift-card-logos/b2e64ace540e9ba6.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1108",
+      "name": "BlueStone Gold",
+      "denominations": [
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/logo_bluestone-logo_384x293pxl1729490844.jpg?width=150",
+      "logo": {
+        "src": "/gift-card-logos/e486058bb078df5c.jpg",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12628",
+      "name": "Zomato Gift Card",
+      "denominations": [
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/533.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/ca5a41fa54067ed1.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12884",
+      "name": "FirstCry",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000,
+        2500,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/FirstCry_19g6tmrszxb5m?width=150",
+      "logo": {
+        "src": "/gift-card-logos/fc7c56f1748f1058.png",
+        "width": 150,
+        "height": 114,
+        "dark": true
+      }
+    },
+    {
+      "sourceId": "1109",
+      "name": "BlueStone Gold Jewellery",
+      "denominations": [
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/logo_bluestone-logo_384x293pxl1729490858.jpg?width=150",
+      "logo": {
+        "src": "/gift-card-logos/e486058bb078df5c.jpg",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12629",
+      "name": "Cleartrip",
+      "denominations": [
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Cleartrip%20Generic_19g619ml7kkbz8?width=150",
+      "logo": {
+        "src": "/gift-card-logos/7d397ed5ab0a1a81.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12885",
+      "name": "Health & Glow",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Health%20%26%20Glow_19g6vmrt6nqit?width=150",
+      "logo": {
+        "src": "/gift-card-logos/6fcc317bd73af4f3.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1110",
+      "name": "BOMBAY SHAVING COMPANY",
+      "denominations": [
+        1000,
+        1500
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/458.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/4b6461af5eabb126.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12630",
+      "name": "ET Prime Subscription",
+      "denominations": [
+        3199
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/622.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/243b91b153e9ced3.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12886",
+      "name": "Tasva",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Tasva_19g616mq7naazk?width=150",
+      "logo": {
+        "src": "/gift-card-logos/39453cf4834bd524.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12631",
+      "name": "Live Hindustan",
+      "denominations": [
+        399
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/66583.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/159bc8c873788618.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12887",
+      "name": "KALKI",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        2500,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/KALKI_19g618mq0i77yr?width=150",
+      "logo": {
+        "src": "/gift-card-logos/965582ae01d1c751.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1112",
+      "name": "BrainGymJr",
+      "denominations": [
+        199,
+        499,
+        799,
+        1499
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/452.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/bfc862d8ec9c4327.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12632",
+      "name": "Live Mint",
+      "denominations": [
+        2949,
+        4999
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/41.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/cd959865a50e9171.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12888",
+      "name": "Nautica",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Nautica_19g618mq4qzyvk?width=150",
+      "logo": {
+        "src": "/gift-card-logos/a2330c2e35b99278.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1113",
+      "name": "Cafe Delhi Heights",
+      "denominations": [
+        250,
+        500,
+        1000,
+        1500
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/441.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/3fdb11bcb7fe579a.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12633",
+      "name": "Blissclub",
+      "denominations": [
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Blissclub_hd9r16gmd72k14i?width=150",
+      "logo": {
+        "src": "/gift-card-logos/810a4c93ddda7a5d.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1114",
+      "name": "Candere Diamond Jewellery",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        2500,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/100.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/6ccb88a3041d12e7.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12634",
+      "name": "Femmella",
+      "denominations": [
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Femmella_gz448150meb8xzr1?width=150",
+      "logo": {
+        "src": "/gift-card-logos/70b34ec13f153db3.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12890",
+      "name": "Giva-Gold Jewellery",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Giva-Gold%20Jewellery_19g618mr0pl3od?width=150",
+      "logo": {
+        "src": "/gift-card-logos/892691969d2f8437.webp",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1115",
+      "name": "Candere Gold Coin",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        2500,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/25.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/89f9c1faf51af862.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12635",
+      "name": "ShemarooMe",
+      "denominations": [
+        449,
+        699,
+        999
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/ShemarooMe_fr3e1113mdzmg2qu?width=150",
+      "logo": {
+        "src": "/gift-card-logos/1ae42034b129e18a.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12891",
+      "name": "Giva-Silver Coin",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Giva-Silver%20Coin_19g618mr0pns53?width=150",
+      "logo": {
+        "src": "/gift-card-logos/892691969d2f8437.webp",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1116",
+      "name": "Candere Gold Jewellery",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        2500,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/99.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/3997db0041b072bd.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12636",
+      "name": "Taj Hotels J Wellness Circle",
+      "denominations": [
+        6000,
+        12000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Taj%20Wellness%20Gift%20Card_f8ur182meme8npf?width=150",
+      "logo": {
+        "src": "/gift-card-logos/4a240bb4dbd17537.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12892",
+      "name": "Giva-Silver Jewellery",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Giva-Silver%20Jewellery_19g618mr0pia87?width=150",
+      "logo": {
+        "src": "/gift-card-logos/892691969d2f8437.webp",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1117",
+      "name": "Chumbak",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/390.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/95bed06e187fddd5.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12637",
+      "name": "Ajio Luxe",
+      "denominations": [
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Ajio%20Luxe_19g617mpfk5epm?width=150",
+      "logo": {
+        "src": "/gift-card-logos/eba981843b2f5f35.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12893",
+      "name": "Yalla Ludo",
+      "denominations": [
+        475,
+        950,
+        2375
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Yalla%20Ludo_19g618mqgapq17?width=150",
+      "logo": {
+        "src": "/gift-card-logos/6bbe80aa2f02c659.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1118",
+      "name": "Costa Coffee",
+      "denominations": [
+        100,
+        250,
+        500,
+        1000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/97.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/72c9477ecfb472b4.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12638",
+      "name": "BookMyShow",
+      "denominations": [
+        100,
+        250,
+        500,
+        1000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/259.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/bf9faf40ed79c717.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1119",
+      "name": "Decathlon",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/236.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/9b12b075748868ba.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12639",
+      "name": "Cleartax",
+      "denominations": [
+        7492,
+        13923,
+        19941,
+        73750
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Cleartax_3qhgixjvrme71mqua?width=150",
+      "logo": {
+        "src": "/gift-card-logos/78ac7f52704039f2.png",
+        "width": 150,
+        "height": 72,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1120",
+      "name": "DocuBay",
+      "denominations": [
+        199,
+        499,
+        999
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/347.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/7ebd4c7b698ac990.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12640",
+      "name": "DUROFLEX",
+      "denominations": [
+        1000,
+        2500,
+        5000,
+        7500,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/DUROFLEX_19g619mp15xuhk?width=150",
+      "logo": {
+        "src": "/gift-card-logos/8671d0df30740938.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1121",
+      "name": "Domino's Pizza",
+      "denominations": [
+        250,
+        500,
+        750,
+        1000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/DOMINO%27S_19g617mnya7cr6?width=150",
+      "logo": {
+        "src": "/gift-card-logos/2ef0a458017147cd.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12641",
+      "name": "Electricity Bill Payment",
+      "denominations": [
+        100,
+        250,
+        500,
+        1000,
+        2000,
+        5000,
+        7500,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Electricity%20Bill%20Payment_9s0nwlimg6ah2h6?width=150",
+      "logo": {
+        "src": "/gift-card-logos/8f9634c0079ebe33.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1122",
+      "name": "Estele",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/455.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/2bb91e7677873e7f.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12642",
+      "name": "Fastag Recharge",
+      "denominations": [
+        100,
+        250,
+        500,
+        1000,
+        2000,
+        5000,
+        7500,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Fastag%20Recharge_9s0nwlimg6amb37?width=150",
+      "logo": {
+        "src": "/gift-card-logos/23a53704cdb8c44c.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1123",
+      "name": "Euphoria Jewellery Silver Coin",
+      "denominations": [
+        1000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/435.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/d44fc202b640b041.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12643",
+      "name": "French Accent",
+      "denominations": [
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/French%20Accent_1kulximfgo7u2q?width=150",
+      "logo": {
+        "src": "/gift-card-logos/676f42ec090c4ad5.png",
+        "width": 150,
+        "height": 115,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1124",
+      "name": "Fab Hotels",
+      "denominations": [
+        500,
+        1000,
+        1500,
+        2000,
+        2500,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/16.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/971c0ce140070410.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12644",
+      "name": "Gas Bill Payment",
+      "denominations": [
+        100,
+        250,
+        500,
+        1000,
+        2000,
+        5000,
+        7500,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Gas%20Bill%20Payment_9s0nwlimg6a8agj?width=150",
+      "logo": {
+        "src": "/gift-card-logos/f6515d577ade7255.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1125",
+      "name": "Fabindia",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        2500,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/28.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/b5cad2f2e9720596.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12645",
+      "name": "Haute Sauce",
+      "denominations": [
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Haute%20Sauce_1kulximfgoa2qh?width=150",
+      "logo": {
+        "src": "/gift-card-logos/c7d802843ec41b72.png",
+        "width": 150,
+        "height": 115,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1126",
+      "name": "Fastrack",
+      "denominations": [
+        250,
+        500,
+        1000,
+        1500,
+        2000,
+        3000,
+        5000,
+        7500,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/145.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/b0b164469f6a5aa7.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12646",
+      "name": "Himalaya Wellness",
+      "denominations": [
+        100,
+        250,
+        500,
+        750,
+        1000,
+        2000,
+        3000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Himalaya%20Wellness_9s0nwlimg651e2h?width=150",
+      "logo": {
+        "src": "/gift-card-logos/94cc493b31c86a55.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1127",
+      "name": "Fastrack Bags",
+      "denominations": [
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Fastrack%20Bags_16elcu7imfpc7hz6?width=150",
+      "logo": {
+        "src": "/gift-card-logos/184e2be3791cc84d.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12647",
+      "name": "Instafab Plus",
+      "denominations": [
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Instafab%20Plus_1kulximfgoetjb?width=150",
+      "logo": {
+        "src": "/gift-card-logos/dba9c66eaabb99ed.png",
+        "width": 150,
+        "height": 115,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1128",
+      "name": "Ferns N Petals",
+      "denominations": [
+        500,
+        1000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/29.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/4d3a4a6a2917e4d3.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12648",
+      "name": "Klook",
+      "denominations": [
+        1000,
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Klook_eni1pimhbkf3iy?width=150",
+      "logo": {
+        "src": "/gift-card-logos/3eacca98838f1542.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12649",
+      "name": "Landline Bill Payment",
+      "denominations": [
+        100,
+        250,
+        500,
+        1000,
+        2000,
+        5000,
+        7500,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Landline%20Bill%20Payment_9s0nwlimg69g021?width=150",
+      "logo": {
+        "src": "/gift-card-logos/7d7ccb84656b25ce.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12650",
+      "name": "Liberty",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Liberty_1d7mhumiih0u0p?width=150",
+      "logo": {
+        "src": "/gift-card-logos/4d2fd45a0558cac1.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1131",
+      "name": "FITPASS",
+      "denominations": [
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/531.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/1782dc3113105df6.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12651",
+      "name": "Liberty Online",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Liberty%20Online_1d7mhumiih02va?width=150",
+      "logo": {
+        "src": "/gift-card-logos/4d2fd45a0558cac1.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1132",
+      "name": "Freecultr",
+      "denominations": [
+        500,
+        1000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Freecultr_19g616mk5dx2kh?width=150",
+      "logo": {
+        "src": "/gift-card-logos/3c5f88c79f1ba784.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12652",
+      "name": "Manyavar",
+      "denominations": [
+        100,
+        1000,
+        2500,
+        5000,
+        7500,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Manyavar_cjam5imfzda7m5?width=150",
+      "logo": {
+        "src": "/gift-card-logos/5c99a846efd419bc.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12653",
+      "name": "Me N Moms",
+      "denominations": [
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Me%20N%20Moms_9s0nwlimg6dh2pe?width=150",
+      "logo": {
+        "src": "/gift-card-logos/5d013136f5f52733.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1134",
+      "name": "GIVA",
+      "denominations": [
+        500,
+        1000,
+        1500,
+        2500
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/GIVA_fio9simgexxf4d?width=150",
+      "logo": {
+        "src": "/gift-card-logos/6064858675550161.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12654",
+      "name": "Microsoft Xbox Game Pass Core",
+      "denominations": [
+        1799,
+        3349
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Microsoft%20Xbox%20Game%20Pass%20Core_1ho6k14smbt9fwpb?width=150",
+      "logo": {
+        "src": "/gift-card-logos/4635c11ce814b73a.png",
+        "width": 150,
+        "height": 114,
+        "dark": true
+      }
+    },
+    {
+      "sourceId": "1135",
+      "name": "Hammer",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/470.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/6d483af8d8da979b.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12655",
+      "name": "Microsoft Xbox PC Game Pass",
+      "denominations": [
+        1349
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Microsoft%20Xbox%20PC%20Game%20Pass_5ivlimf6rmjme?width=150",
+      "logo": {
+        "src": "/gift-card-logos/a8bfe6dcfe5cc86c.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1136",
+      "name": "Healthians",
+      "denominations": [
+        250,
+        500,
+        1000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/349.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/8a20a38bce4bcd0e.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12656",
+      "name": "Mobile Postpaid - Bill Payment",
+      "denominations": [
+        100,
+        250,
+        500,
+        1000,
+        2000,
+        5000,
+        7500,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Mobile%20Postpaid%20-%20Bill%20Payment_9s0nwlimg6areew?width=150",
+      "logo": {
+        "src": "/gift-card-logos/b99c82e029caa9c2.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1137",
+      "name": "Hidesign",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/39.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/6ca75d0eb52bd04d.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12657",
+      "name": "Mobile Prepaid - Recharge",
+      "denominations": [
+        100,
+        250,
+        500,
+        1000,
+        2000,
+        5000,
+        7500,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Mobile%20Prepaid%20-%20Recharge_9s0nwlimg6azmmh?width=150",
+      "logo": {
+        "src": "/gift-card-logos/5b80a7f8e7104437.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1138",
+      "name": "Hoichoi",
+      "denominations": [
+        999
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Hoichoi_19g617mlkhjtea?width=150",
+      "logo": {
+        "src": "/gift-card-logos/147041e6178558f5.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12658",
+      "name": "Pure Home + Living",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000,
+        5000,
+        7500,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/PureHomeLiving_19g615mthaekyi?width=150",
+      "logo": {
+        "src": "/gift-card-logos/01cdbc8e6243adc3.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1139",
+      "name": "Home Centre",
+      "denominations": [
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/125.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/85d726de0109e409.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12659",
+      "name": "Speedo",
+      "denominations": [
+        100,
+        250,
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Speedo_kw316xmdmrdnvg?width=150",
+      "logo": {
+        "src": "/gift-card-logos/efad09c5920b8644.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12660",
+      "name": "SSUNSU",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/logo_2024-12-09t11_24_231733744580.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/78880ed7803ae43b.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1141",
+      "name": "Hush Puppies",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/91.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/72294648050f4e70.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12661",
+      "name": "Subway",
+      "denominations": [
+        100,
+        250,
+        500,
+        750,
+        1000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Subway_19g616mo1gfxnw?width=150",
+      "logo": {
+        "src": "/gift-card-logos/e69d4b8ce33bbd39.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1142",
+      "name": "ITC Hotels",
+      "denominations": [
+        1000,
+        5000,
+        7500,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/463.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/95d56733d2865abe.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12662",
+      "name": "The Sleep Company",
+      "denominations": [
+        1000,
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/586.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/0619cc0c2866510e.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1143",
+      "name": "Jack & Jones",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/10.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/f718e90d1dd10ade.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12663",
+      "name": "Tinder",
+      "denominations": [
+        585,
+        930
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Tinder_5ivlimf6n0ij4?width=150",
+      "logo": {
+        "src": "/gift-card-logos/794d4d9c8de01513.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1144",
+      "name": "Jockey",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Jockey_19g6tmsmud1kt?width=150",
+      "logo": {
+        "src": "/gift-card-logos/d90666321860ee37.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12664",
+      "name": "Typsy Beauty",
+      "denominations": [
+        250,
+        500,
+        750,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Typsy%20Beauty_dwa123mcvjnznm?width=150",
+      "logo": {
+        "src": "/gift-card-logos/b84e1c5b424f80ad.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1145",
+      "name": "Kalyan Diamond Jewellery",
+      "denominations": [
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/121.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/255b38f1cb80742e.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12665",
+      "name": "UniPin",
+      "denominations": [
+        100
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/UniPin_cuqd314ama24wrc4?width=150",
+      "logo": {
+        "src": "/gift-card-logos/c5809853ef325f78.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1146",
+      "name": "Kalyan Gold Jewellery",
+      "denominations": [
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/120.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/28978d163b32fb41.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12666",
+      "name": "Urban Space",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Urban%20Space_9s0nwlimg63fgms?width=150",
+      "logo": {
+        "src": "/gift-card-logos/5d08e2873e41868f.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1147",
+      "name": "Kama Ayurveda",
+      "denominations": [
+        100,
+        250,
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/47.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/533bf24b2c14d2f3.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12667",
+      "name": "Water Bill Payment",
+      "denominations": [
+        100,
+        250,
+        500,
+        1000,
+        2000,
+        5000,
+        7500,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Water%20Bill%20Payment_9s0nwlimg69vcod?width=150",
+      "logo": {
+        "src": "/gift-card-logos/c998022e2b07dbba.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1148",
+      "name": "Ketan Diamonds Diamond Only",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn.gyftr.com/comm_engine/prod/images/brands/1617628231794_1ao771kldkn4m2zxu.png",
+      "logo": {
+        "src": "/gift-card-logos/82691e2142f06e3d.png",
+        "width": 167,
+        "height": 80,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12668",
+      "name": "Cleartrip Hotel",
+      "denominations": [
+        2000,
+        7500
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/572.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/a6f56ac162dbe266.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1149",
+      "name": "Ketan Diamonds Gold Coin",
+      "denominations": [
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/124.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/4bcb390b3ae9b68a.png",
+        "width": 150,
+        "height": 114,
+        "dark": true
+      }
+    },
+    {
+      "sourceId": "12669",
+      "name": "Croma.",
+      "denominations": [
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Croma._1d7mhumifzocnj?width=150",
+      "logo": {
+        "src": "/gift-card-logos/f06bff2a71c128d7.webp",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1150",
+      "name": "Ketan Diamonds Gold Jewellery",
+      "denominations": [
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/123.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/5df0f88bc28bc17f.png",
+        "width": 150,
+        "height": 114,
+        "dark": true
+      }
+    },
+    {
+      "sourceId": "12670",
+      "name": "UniPin BGMI",
+      "denominations": [
+        1900
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/UniPin%20BGMI_cuqd314ama24x6bg?width=150",
+      "logo": {
+        "src": "/gift-card-logos/b536e4d77d668618.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1151",
+      "name": "KFC",
+      "denominations": [
+        100,
+        250,
+        500,
+        1000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/98.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/72e0dce5667bcce0.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12671",
+      "name": "Blinkit Gift Card",
+      "denominations": [
+        250,
+        500,
+        1000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Blinkit%20Gift%20Card_19g61amji58xcx?width=150",
+      "logo": {
+        "src": "/gift-card-logos/c8bf662d26985be6.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1152",
+      "name": "Kiehls",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/136.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/62482d5540145e89.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12672",
+      "name": "Mango",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Mango_19g618mn5kdvyw?width=150",
+      "logo": {
+        "src": "/gift-card-logos/3b0e2aed8289e5e1.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1153",
+      "name": "Levis",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Levis_c71ji17omck3o6uq?width=150",
+      "logo": {
+        "src": "/gift-card-logos/d5a5ad134c85ea63.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12673",
+      "name": "NEXT",
+      "denominations": [
+        1000,
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/NEXT_19g618mn5kdz77?width=150",
+      "logo": {
+        "src": "/gift-card-logos/8bd4f72a4107fbd2.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1154",
+      "name": "Lifestyle Online",
+      "denominations": [
+        500,
+        1000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/330.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/3dfd2cde8ec1ec10.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12674",
+      "name": "Zoomcar",
+      "denominations": [
+        500,
+        1000,
+        2500,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Zoomcar_19g619mn8nre21?width=150",
+      "logo": {
+        "src": "/gift-card-logos/036d3b7da6576d1b.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1155",
+      "name": "Luxe Gift Card",
+      "denominations": [
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/64.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/4211ad9f44862d8f.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12675",
+      "name": "STYLE BAAZAR",
+      "denominations": [
+        50,
+        250,
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/STYLE%20BAZAAR_19g618mnemfcfi?width=150",
+      "logo": {
+        "src": "/gift-card-logos/3fa4ae5535418bdf.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1156",
+      "name": "Machaan",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/140.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/cdec36dac0ce8722.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12676",
+      "name": "Soulflower",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Soulflower_19g616mnn6or91?width=150",
+      "logo": {
+        "src": "/gift-card-logos/dd0c8023cc035aa8.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1157",
+      "name": "Mainland China",
+      "denominations": [
+        100,
+        250,
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/67.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/5859f2f77f2680f5.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12677",
+      "name": "DOMINO'S",
+      "denominations": [
+        250,
+        500,
+        1000,
+        1500
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/DOMINO%27S_19g617mnya7cr6?width=150",
+      "logo": {
+        "src": "/gift-card-logos/2ef0a458017147cd.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1158",
+      "name": "MakeMyTrip e-Pay",
+      "denominations": [
+        100,
+        500,
+        1000,
+        2000,
+        5000,
+        7500,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/615.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/12c595f7616e5195.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12678",
+      "name": "Milkbasket",
+      "denominations": [
+        100,
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Milkbasket_19g617mnekxr3t?width=150",
+      "logo": {
+        "src": "/gift-card-logos/5763c3fb53ee2511.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1159",
+      "name": "MakeMyTrip Holiday e-Pay",
+      "denominations": [
+        1000,
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/616.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/80dcf61f206cfee9.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12679",
+      "name": "Lohono Stays",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Lohono%20Stays_19g615mtgy2piu?width=150",
+      "logo": {
+        "src": "/gift-card-logos/9f63c8612a7471d5.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1160",
+      "name": "MakeMyTrip Hotel e-Pay",
+      "denominations": [
+        1000,
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/617.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/5b9a744addaba6e3.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12680",
+      "name": "Palmonas",
+      "denominations": [
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Palmonas_19g618mocu31jl?width=150",
+      "logo": {
+        "src": "/gift-card-logos/ede6bb33c9aabdee.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1161",
+      "name": "MAX",
+      "denominations": [
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/MAX_g3hpkm6jmcynlcui?width=150",
+      "logo": {
+        "src": "/gift-card-logos/34862b1d88425fa1.webp",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12681",
+      "name": "Columbia Sportswear",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Columbia%20Sportswear_19g618moik6ytp?width=150",
+      "logo": {
+        "src": "/gift-card-logos/64c85b591acf2fa1.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1162",
+      "name": "Max Fashion Online",
+      "denominations": [
+        500,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/547.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/92b6b2be98aaeab8.png",
+        "width": 150,
+        "height": 114,
+        "dark": true
+      }
+    },
+    {
+      "sourceId": "12682",
+      "name": "Elivaas",
+      "denominations": [
+        1000,
+        2000,
+        2500,
+        5000,
+        7500,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Elivaas_19g618moclyq5w?width=150",
+      "logo": {
+        "src": "/gift-card-logos/f95164e7a427bc7b.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1163",
+      "name": "Mia",
+      "denominations": [
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/381.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/fcbb0080a428f4f0.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12683",
+      "name": "Minus30",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000,
+        2500
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Minus30_19g618mok149od?width=150",
+      "logo": {
+        "src": "/gift-card-logos/35cffe913fa30ed2.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12684",
+      "name": "Pronto",
+      "denominations": [
+        100,
+        250,
+        500,
+        750,
+        1000,
+        1500,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Pronto_19g618motmq04c?width=150",
+      "logo": {
+        "src": "/gift-card-logos/fe8115807d3898d0.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12685",
+      "name": "Adventra",
+      "denominations": [
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Adventra_19g619mpqmuov9?width=150",
+      "logo": {
+        "src": "/gift-card-logos/f77b801cf5a1735c.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12686",
+      "name": "Cordelia",
+      "denominations": [
+        1000,
+        2500,
+        3000,
+        5000,
+        7500,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Cordelia_19g616mpphec3f?width=150",
+      "logo": {
+        "src": "/gift-card-logos/312cc7d60949bd3a.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1167",
+      "name": "Netmeds",
+      "denominations": [
+        250,
+        500,
+        1000,
+        1500,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/54.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/3548d70f2bb246e4.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12687",
+      "name": "Zouk",
+      "denominations": [
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Zouk_19g616mpcfh5b2?width=150",
+      "logo": {
+        "src": "/gift-card-logos/43bf7c0cd0e91bdf.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1168",
+      "name": "Oh! Calcutta",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/141.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/27339d0826ea9759.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12688",
+      "name": "KALKI",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        2500,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/KALKI_19g618mq0i77yr?width=150",
+      "logo": {
+        "src": "/gift-card-logos/965582ae01d1c751.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1169",
+      "name": "OLA CABS",
+      "denominations": [
+        100,
+        500
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/5.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/12b0f015c015d2a9.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12689",
+      "name": "Nautica",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Nautica_19g618mq4qzyvk?width=150",
+      "logo": {
+        "src": "/gift-card-logos/a2330c2e35b99278.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1170",
+      "name": "ONLY",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/93.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/e9890efb2379de7b.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12690",
+      "name": "Snitch",
+      "denominations": [
+        100,
+        250,
+        500,
+        1000,
+        1500,
+        2000,
+        3000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Snitch_19g61amqgsky7w?width=150",
+      "logo": {
+        "src": "/gift-card-logos/0985a06cd2164be2.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1171",
+      "name": "ORGANIC INDIA",
+      "denominations": [
+        250,
+        500,
+        1000,
+        1500
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/ORGANIC%20INDIA_18tex7ttm9jpnxv6?width=150",
+      "logo": {
+        "src": "/gift-card-logos/19c85b3c4102fd6f.png",
+        "width": 150,
+        "height": 114,
+        "dark": true
+      }
+    },
+    {
+      "sourceId": "12691",
+      "name": "Giva-Gold Jewellery",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Giva-Gold%20Jewellery_19g618mr0pl3od?width=150",
+      "logo": {
+        "src": "/gift-card-logos/892691969d2f8437.webp",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1172",
+      "name": "PANTALOONS",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000,
+        2500,
+        5000,
+        7500
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/PANTALOONS_19g618mqp4frko?width=150",
+      "logo": {
+        "src": "/gift-card-logos/fab4975a6b8f90ad.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12692",
+      "name": "Giva-Silver Coin",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Giva-Silver%20Coin_19g618mr0pns53?width=150",
+      "logo": {
+        "src": "/gift-card-logos/892691969d2f8437.webp",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1173",
+      "name": "PC Jeweller Diamond",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/135.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/889e14d64f350827.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12693",
+      "name": "Giva-Silver Jewellery",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Giva-Silver%20Jewellery_19g618mr0pia87?width=150",
+      "logo": {
+        "src": "/gift-card-logos/892691969d2f8437.webp",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1174",
+      "name": "PC Jeweller Gold",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/134.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/41fa97fc617a3993.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12694",
+      "name": "FirstCry",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000,
+        2500,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/FirstCry_19g6tmrszxb5m?width=150",
+      "logo": {
+        "src": "/gift-card-logos/fc7c56f1748f1058.png",
+        "width": 150,
+        "height": 114,
+        "dark": true
+      }
+    },
+    {
+      "sourceId": "1175",
+      "name": "PC Jeweller Gold Coin",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/57.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/304e8f6e6b82f968.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12695",
+      "name": "Cinepolis",
+      "denominations": [
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Cinepolis_19g618mqt1lblf?width=150",
+      "logo": {
+        "src": "/gift-card-logos/b2e64ace540e9ba6.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12696",
+      "name": "Discord",
+      "denominations": [
+        950
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Discord_19g618mqga62zg?width=150",
+      "logo": {
+        "src": "/gift-card-logos/03470e90781bff5b.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1177",
+      "name": "Pizza Hut",
+      "denominations": [
+        100,
+        250,
+        500,
+        1000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/21.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/3c4c92c35ac27393.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12697",
+      "name": "EA SPORTS FC 26",
+      "denominations": [
+        4750
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/EA%20SPORTS%20FC%2026_19g618mqereqfi?width=150",
+      "logo": {
+        "src": "/gift-card-logos/ca150d8057e50d71.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1178",
+      "name": "Points for Good",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/58.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/879f78100f08a8d6.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12698",
+      "name": "ExitLag",
+      "denominations": [
+        475
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/ExitLag_19g61amqi5t2sn?width=150",
+      "logo": {
+        "src": "/gift-card-logos/e6dd281394419e4c.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1179",
+      "name": "Prestige",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/77.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/82d22902d8533283.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12699",
+      "name": "Health & Glow",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Health%20%26%20Glow_19g6vmrt6nqit?width=150",
+      "logo": {
+        "src": "/gift-card-logos/6fcc317bd73af4f3.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1180",
+      "name": "Puma",
+      "denominations": [
+        500,
+        1000,
+        1500,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/59.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/436dd9ef606d830d.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12700",
+      "name": "Hoora",
+      "denominations": [
+        250,
+        500,
+        1000,
+        1500,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Hoora_19g61amqj89lcq?width=150",
+      "logo": {
+        "src": "/gift-card-logos/20b644a2cd4afc21.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1181",
+      "name": "PVR INOX",
+      "denominations": [
+        100,
+        250,
+        500,
+        750,
+        1000,
+        2000,
+        2500,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/PVR%20INOX_19g618mr0f6juw?width=150",
+      "logo": {
+        "src": "/gift-card-logos/e808c2e9095a24f8.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12701",
+      "name": "LUZO - Salons, Spas, Clinics",
+      "denominations": [
+        250,
+        500,
+        1000,
+        1500,
+        2500,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Luzo_19g6vmrougvyl?width=150",
+      "logo": {
+        "src": "/gift-card-logos/30505e30b10d2718.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1182",
+      "name": "Reader's Digest",
+      "denominations": [
+        549
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/42.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/1cda5ef4e33a1c43.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12702",
+      "name": "Moba Legends 5v5",
+      "denominations": [
+        145,
+        290,
+        434,
+        1161
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Moba%20Legends%205v5_19g618mqge1iyz?width=150",
+      "logo": {
+        "src": "/gift-card-logos/eac959adc21b3261.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1183",
+      "name": "Relaxo",
+      "denominations": [
+        100,
+        250,
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/63.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/087b923f33524e39.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12703",
+      "name": "Tasva",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Tasva_19g616mq7naazk?width=150",
+      "logo": {
+        "src": "/gift-card-logos/39453cf4834bd524.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1184",
+      "name": "Reliance Trends",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000,
+        7500,
+        9999
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/404.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/8ab17d24b644e7ed.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12704",
+      "name": "What's Up Wellness",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000,
+        2500
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/What%27s%20Up%20Wellness_19g618mqt5wo3r?width=150",
+      "logo": {
+        "src": "/gift-card-logos/55380dea699a32c6.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1185",
+      "name": "Reliance Trends Footwear",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/403.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/a3e503cd557cb278.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12705",
+      "name": "Nintendo eShop Voucher",
+      "denominations": [
+        950,
+        1900,
+        3325
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Nintendo%20eShop%20Voucher_19g618mqgadsov?width=150",
+      "logo": {
+        "src": "/gift-card-logos/d5db358986be3489.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1186",
+      "name": "SIGREE",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/139.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/5eeda8e8df90e647.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12706",
+      "name": "Affinity - Luzo Gift Card",
+      "denominations": [
+        250,
+        500,
+        1000,
+        1500,
+        2500,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Affinity%20-%20Luzo%20Gift%20Card_19g6umsszeamw?width=150",
+      "logo": {
+        "src": "/gift-card-logos/e6bac126431aad8e.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1187",
+      "name": "Simple",
+      "denominations": [
+        500,
+        1000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/539.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/f8823a60eb4dbdb2.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12707",
+      "name": "Bblunt - Luzo Gift Card",
+      "denominations": [
+        250,
+        500,
+        1000,
+        1500,
+        2500,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Bblunt%20-%20Luzo%20Gift%20Card_19g6umssz7zxa?width=150",
+      "logo": {
+        "src": "/gift-card-logos/1adab2db84bf3927.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1188",
+      "name": "Skechers",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/206.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/13d32abcc39f5e92.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12708",
+      "name": "Bounce - Luzo Gift Card",
+      "denominations": [
+        250,
+        500,
+        1000,
+        1500,
+        2500,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Bounce%20-%20Luzo%20Gift%20Card_19g6umsszg3sp?width=150",
+      "logo": {
+        "src": "/gift-card-logos/db234e27f2e9dbf4.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1189",
+      "name": "Skinn",
+      "denominations": [
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/382.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/7f65a5953773e375.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12709",
+      "name": "Bubbles - Luzo Gift Card",
+      "denominations": [
+        250,
+        500,
+        1000,
+        1500,
+        2500,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Bubbles%20-%20Luzo%20Gift%20Card_19g6umsszhnwy?width=150",
+      "logo": {
+        "src": "/gift-card-logos/329cef026307eebe.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1190",
+      "name": "Skullcandy",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/175.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/0e11636357502eba.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12710",
+      "name": "Cut & Style - Luzo Gift Card",
+      "denominations": [
+        250,
+        500,
+        1000,
+        1500,
+        2500,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Cut%20%26%20Style%20-%20Luzo%20Gift%20Card_19g6umssz3s9z?width=150",
+      "logo": {
+        "src": "/gift-card-logos/a6664fdbbd7efe0f.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1191",
+      "name": "SonyLiv",
+      "denominations": [
+        299,
+        399,
+        699,
+        999,
+        1499
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/156.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/d676c03b9a181ce9.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12711",
+      "name": "Enrich - Luzo Gift Card",
+      "denominations": [
+        250,
+        500,
+        1000,
+        1500,
+        2500,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Enrich%20-%20Luzo%20Gift%20Card_19g6umssz4dz0?width=150",
+      "logo": {
+        "src": "/gift-card-logos/50c0501a9ffda616.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1192",
+      "name": "Spencer's Retail",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/68.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/5f65eea5aa0c1e38.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12712",
+      "name": "Geetanjali - Luzo Gift Card",
+      "denominations": [
+        250,
+        500,
+        1000,
+        1500,
+        2500,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Geetanjali%20-%20Luzo%20Gift%20Card_19g6umssza1a5?width=150",
+      "logo": {
+        "src": "/gift-card-logos/3e44f7e85afe5062.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1193",
+      "name": "Sweet Bengal",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/142.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/cd74ad1ae7932ad5.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12713",
+      "name": "Jawed Habib - Luzo Gift Card",
+      "denominations": [
+        250,
+        500,
+        1000,
+        1500,
+        2500,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Jawed%20Habib%20-%20Luzo%20Gift%20Card_19g6umsszc6hz?width=150",
+      "logo": {
+        "src": "/gift-card-logos/2618b48742453587.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1194",
+      "name": "Swiggy Money Voucher",
+      "denominations": [
+        100,
+        250,
+        500,
+        1000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Swiggy%20Money%20Voucher_19g616mmnbl8xf?width=150",
+      "logo": {
+        "src": "/gift-card-logos/64bfedc042e3b234.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12714",
+      "name": "JCB - Luzo Gift Card",
+      "denominations": [
+        250,
+        500,
+        1000,
+        1500,
+        2500,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/JCB%20-%20Luzo%20Gift%20Card_19g6umsszcjql?width=150",
+      "logo": {
+        "src": "/gift-card-logos/871e753540d9e717.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1195",
+      "name": "Taj Experiences",
+      "denominations": [
+        1000,
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/289.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/4bdee5ffb1b2a549.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12715",
+      "name": "Lakme - Luzo Gift Card",
+      "denominations": [
+        250,
+        500,
+        1000,
+        1500,
+        2500,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Lakme%20-%20Luzo%20Gift%20Card_19g614mth1xzu9?width=150",
+      "logo": {
+        "src": "/gift-card-logos/bcbd137d0b345c11.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1196",
+      "name": "Tanishq",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/160.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/33989dd12aab9ac0.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12716",
+      "name": "Looks - Luzo Gift Card",
+      "denominations": [
+        250,
+        500,
+        1000,
+        1500,
+        2500,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Looks%20-%20Luzo%20Gift%20Card_19g6umssz8h08?width=150",
+      "logo": {
+        "src": "/gift-card-logos/100e09f8a41b8f8b.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1197",
+      "name": "TATA CLiQ",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000,
+        7500,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/logo_tcf1732280084.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/24ee44f02f170426.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12717",
+      "name": "Naturals - Luzo Gift Card",
+      "denominations": [
+        250,
+        500,
+        1000,
+        1500,
+        2500,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Naturals%20-%20Luzo%20Gift%20Card_19g6umssz6l7y?width=150",
+      "logo": {
+        "src": "/gift-card-logos/935003ee269eb56e.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1198",
+      "name": "TGIF",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/12.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/0a547197d932893d.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12718",
+      "name": "Toni & Guy - Luzo Gift Card",
+      "denominations": [
+        250,
+        500,
+        1000,
+        1500,
+        2500,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Toni%20%26%20Guy%20-%20Luzo%20Gift%20Card_19g6umsszfxev?width=150",
+      "logo": {
+        "src": "/gift-card-logos/026c10b37c6c07ab.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1199",
+      "name": "The Body Shop",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/61.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/62d0ce88a0a252d2.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1200",
+      "name": "The Man Company",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/38.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/0cdd7fe074dc289b.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1201",
+      "name": "The Raymond Shop",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/62.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/e592462a5b6c0e03.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1202",
+      "name": "Timezone",
+      "denominations": [
+        800
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/456.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/1eb1a539cc2c8806.png",
+        "width": 150,
+        "height": 114,
+        "dark": true
+      }
+    },
+    {
+      "sourceId": "1203",
+      "name": "Titan",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/74.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/8b7913a29571b5c1.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1204",
+      "name": "Titan Eye Plus",
+      "denominations": [
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/75.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/6e12dac78880ae5d.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1205",
+      "name": "Titan Minimals",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/383.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/652933a28d1c58a2.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1206",
+      "name": "TRUEFITT & HILL",
+      "denominations": [
+        500,
+        1000,
+        1500,
+        2000,
+        2500
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/449.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/fa6292dbd8e06b06.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1207",
+      "name": "V Mart",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/520.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/1b561055a1eeb557.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1220",
+      "name": "BPCL SmartDrive Fuel e-voucher",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/346.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/d97dbc8b5d60b8fd.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "1221",
+      "name": "HealthifyMe Smart Plan",
+      "denominations": [
+        999
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/543.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/11bccdf5c7a53f95.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12511",
+      "name": "Euphoria Jewellery Gold Coin",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/320.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/930e1fafcc347ca2.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12512",
+      "name": "HealthKart",
+      "denominations": [
+        1000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/574.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/e3ed1ae1a75564b0.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12513",
+      "name": "Helios",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/192.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/56c7c32d4c37637a.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12514",
+      "name": "Kalyan Gold Coins",
+      "denominations": [
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/46.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/07e6a732d3479347.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12515",
+      "name": "Lifestyle",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Lifestyle_19g618mkgqx7ab?width=150",
+      "logo": {
+        "src": "/gift-card-logos/e49c02ea4f4f4130.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12516",
+      "name": "Reliance Jewels",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/433.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/cb684d1acbc3d13c.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12517",
+      "name": "Reliance Smart",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/406.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/bb2d8f3a35932949.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12518",
+      "name": "Shoppers Stop",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/65.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/e45d245e3088c77e.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12519",
+      "name": "Tanishq Diamond Jewellery",
+      "denominations": [
+        1000,
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/494.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/7dc7c5f6bf333dac.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12520",
+      "name": "Tanishq Gold Jewellery",
+      "denominations": [
+        1000,
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/495.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/7dc7c5f6bf333dac.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12521",
+      "name": "UBER",
+      "denominations": [
+        100,
+        250,
+        500,
+        1000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/27.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/ffc97659d85a3491.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12522",
+      "name": "Vijay Sales",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000,
+        7500
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/351.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/24be3c59d5d053b7.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12523",
+      "name": "Adani Meet and Greet",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Adani%20Meet%20and%20Greet_jn0gr175mb908bvh?width=150",
+      "logo": {
+        "src": "/gift-card-logos/5e25a801fb5fff88.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12524",
+      "name": "Air India",
+      "denominations": [
+        1000,
+        2000,
+        5000,
+        7500,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/logo_logo1735537102.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/9119a63c2525b271.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12525",
+      "name": "ALDO",
+      "denominations": [
+        500,
+        1000,
+        1500,
+        2000,
+        2500,
+        3000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/66551.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/75410d46cec79af8.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12526",
+      "name": "Aliste",
+      "denominations": [
+        500,
+        1000,
+        1500,
+        2000,
+        3000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/6634.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/8266b12a94a38f60.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12527",
+      "name": "Allen Solly",
+      "denominations": [
+        250,
+        500,
+        1000,
+        1500,
+        2500,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Allen%20Solly_g7bgb84mdn2shie?width=150",
+      "logo": {
+        "src": "/gift-card-logos/a0f5da4551ce1524.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12531",
+      "name": "American Eagle",
+      "denominations": [
+        1000,
+        2000,
+        5000,
+        7500
+      ],
+      "logoSource": "https://cdn.gyftr.com/comm_engine/prod/images/brands/1710314832845_ep9yx2a5ltphaj0t.png",
+      "logo": {
+        "src": "/gift-card-logos/2944a045a22157e7.png",
+        "width": 178,
+        "height": 136,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12532",
+      "name": "American Tourister",
+      "denominations": [
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/548.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/b49d6b7e7372ce7a.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12533",
+      "name": "Assembly",
+      "denominations": [
+        1000,
+        2000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/logo_assembly-logo1729490101.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/e9aafcde506ed336.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12534",
+      "name": "Bakingo",
+      "denominations": [
+        250,
+        500,
+        1000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/649.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/8974289cba7fc93a.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12535",
+      "name": "Bath & Body Works",
+      "denominations": [
+        500,
+        1000,
+        1500,
+        2000,
+        2500,
+        3000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/66552.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/cf7ec41e2ffa91db.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12536",
+      "name": "Beer Cafe",
+      "denominations": [
+        100,
+        250,
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/14.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/212d8358e5b8160c.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12537",
+      "name": "Behrouz Biryani",
+      "denominations": [
+        250,
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/484.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/7c34f4b14f4958e5.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12538",
+      "name": "Beverly Hills Polo Club",
+      "denominations": [
+        500,
+        1000,
+        1500,
+        2000,
+        2500,
+        3000,
+        5000,
+        7500,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/66554.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/a6871aeea3367c1c.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12539",
+      "name": "BIBA",
+      "denominations": [
+        250,
+        500,
+        1000,
+        1500,
+        2000,
+        2500,
+        3000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/11.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/d0977abf0fc22bca.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12540",
+      "name": "Call it Spring",
+      "denominations": [
+        500,
+        1000,
+        1500,
+        2000,
+        2500,
+        3000,
+        5000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/66553.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/8ae47cf2f442b6c6.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12541",
+      "name": "Campus",
+      "denominations": [
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/Campus_19g619mn8hcsfy?width=150",
+      "logo": {
+        "src": "/gift-card-logos/b07aa15cd29c38a2.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12542",
+      "name": "CAHOOT",
+      "denominations": [
+        500,
+        1000,
+        2000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/CAHOOT_19g616mreoawmc?width=150",
+      "logo": {
+        "src": "/gift-card-logos/be3bfb1f29633bc6.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    },
+    {
+      "sourceId": "12543",
+      "name": "Cello",
+      "denominations": [
+        500,
+        1000,
+        2000,
+        5000,
+        10000
+      ],
+      "logoSource": "https://cdn2.gyftr.com/common/logo/logo_logo1735804964.png?width=150",
+      "logo": {
+        "src": "/gift-card-logos/11856cd06a8a776a.png",
+        "width": 150,
+        "height": 114,
+        "dark": false
+      }
+    }
+  ]
+}

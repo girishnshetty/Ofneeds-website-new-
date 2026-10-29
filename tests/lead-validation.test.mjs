@@ -28,6 +28,18 @@ test('valid enquiry retains structured fields and numeric values', () => {
 	assert.equal(parsed.budget, 499);
 	assert.equal(parsed.values.company, 'Test Company');
 });
+
+test('supplier and other enquiries retain audience without requiring a fictitious quantity', () => {
+	for (const enquiryType of ['supplier', 'other']) {
+		const parsed = validateLead(form({ enquiryType, quantity: '', productRequirement: 'Supplier product range and coverage' }));
+		assert.deepEqual(parsed.errors, {});
+		assert.equal(parsed.values.enquiryType, enquiryType);
+		assert.equal(parsed.quantity, null);
+	}
+	assert.equal(validateLead(form()).values.enquiryType, 'buyer');
+	assert.ok(validateLead(form({ enquiryType: 'unknown' })).errors.enquiryType);
+	assert.ok(validateLead(form({ enquiryType: 'buyer', quantity: '' })).errors.quantity);
+});
 test('required fields, email and phone are validated', () => {
 	const parsed = validateLead(
 		form({

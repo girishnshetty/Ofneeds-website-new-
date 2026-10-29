@@ -48,8 +48,9 @@ for (const route of routes) {
 		assert.ok(schema['@graph'].some((item) => item['@type'] === 'BreadcrumbList'));
 		schemaCount++;
 	}
-	for (const match of html.matchAll(/<a\b[^>]*\bhref="(\/[^"]*|#[^"]+)"/g)) {
+	for (const match of html.matchAll(/<a\b[^>]*\bhref="([^"]+)"/g)) {
 		const url = new URL(match[1].replace(/&amp;/g, '&'), base + route);
+		if (url.origin !== new URL(base).origin) continue;
 		internal.add(url.pathname);
 		if (url.hash) {
 			const target =
@@ -74,7 +75,7 @@ const home = documents.get('/');
 assert.ok(home.includes('tally.so/r/OD0ZV7'));
 assert.ok(home.includes('wa.me/917090795666'));
 assert.ok(home.includes('₹599') && home.includes('₹1,099'));
-for (const [route, html] of documents) assert.ok(!/₹(?:499|999)(?!\d)/.test(html), 'No superseded package prices: ' + route);
+for (const [route, html] of documents) if (!route.startsWith('/gift-cards')) assert.ok(!/₹(?:499|999)(?!\d)/.test(html), 'No superseded package prices: ' + route);
 for (const name of [
 	'Gladwin Bosco',
 	'Krishna Murthy',

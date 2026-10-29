@@ -1,5 +1,6 @@
 export function validateLead(data: FormData) {
 	const keys = [
+		'enquiryType',
 		'name',
 		'company',
 		'email',
@@ -19,16 +20,18 @@ export function validateLead(data: FormData) {
 		const value = data.get(key);
 		values[key] = typeof value === 'string' ? value.trim() : '';
 	}
+	values.enquiryType ||= 'buyer';
+	if (!['buyer', 'supplier', 'other'].includes(values.enquiryType)) errors.enquiryType = 'Choose buyer, supplier or other enquiry.';
 	for (const key of [
 		'name',
 		'company',
 		'email',
 		'phone',
 		'productRequirement',
-		'quantity',
 		'deliveryCity'
 	])
 		if (!values[key]) errors[key] = 'Please complete this field.';
+	if (values.enquiryType === 'buyer' && !values.quantity) errors.quantity = 'Please complete this field.';
 	for (const [key, max] of Object.entries({
 		name: 200,
 		company: 200,
@@ -48,8 +51,8 @@ export function validateLead(data: FormData) {
 	const digits = values.phone.replace(/\D/g, '');
 	if (values.phone && (digits.length < 8 || digits.length > 15))
 		errors.phone = 'Enter a phone number with 8 to 15 digits.';
-	const quantity = Number(values.quantity);
-	if (!Number.isSafeInteger(quantity) || quantity < 1 || quantity > 100000000)
+	const quantity = values.quantity ? Number(values.quantity) : null;
+	if (quantity !== null && (!Number.isSafeInteger(quantity) || quantity < 1 || quantity > 100000000))
 		errors.quantity = 'Enter a whole quantity of at least 1.';
 	const budget = values.budget ? Number(values.budget) : null;
 	if (budget !== null && (!Number.isFinite(budget) || budget < 0 || budget > 100000000))

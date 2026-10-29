@@ -32,6 +32,7 @@ export const actions: Actions = {
   const suppliedKey = String(formData.get('submissionKey') || '');
   if (suppliedKey && !/^[a-zA-Z0-9-]{16,80}$/.test(suppliedKey)) return fail(400, { values, message: 'Please reload the page before submitting your enquiry.' });
   const payload = {
+   enquiryType: parsed.values.enquiryType as Lead['enquiryType'],
    name: parsed.values.name, company: parsed.values.company, email: parsed.values.email,
    phone: parsed.values.phone, productRequirement: parsed.values.productRequirement,
    quantity: parsed.quantity, budget: parsed.budget, deliveryDate: parsed.values.deliveryDate || null,

@@ -14,6 +14,8 @@
 	import { products, pageFor } from '$lib/data/catalog';
 	import { site } from '$lib/data/site';
 	import InsightsList from '$lib/components/InsightsList.svelte';
+	import GiftingDirectory from '$lib/components/GiftingDirectory.svelte';
+	import ProcurementGuide from '$lib/components/ProcurementGuide.svelte';
 	let { data } = $props();
 	const landing = $derived(data.landing);
 	const content = $derived(data.content);
@@ -28,6 +30,8 @@
 		imageAlt={landing.imageAlt}
 		photo={landing.photo}
 	/>
+	{#if landing.slug === 'corporate-gifts'}<GiftingDirectory />{/if}
+	{#if landing.slug === 'hr-procurement-gifting'}<ProcurementGuide />{/if}
 	<section class="section">
 		<div class="container landing-details">
 			<div class="prose">
@@ -64,6 +68,7 @@
 		<div class="container">
 			<p class="eyebrow">Complete the requirement</p>
 			<h2>Related Gifting Solutions</h2>
+			<p><a class="text-link" href={resolve('/corporate-gifts#gifting-directory')}>Browse every gifting programme and product category <Icon size={16} /></a></p>
 			<div class="related-grid">
 				{#each landing.related as slug (slug)}{@const related = pageFor(slug)}{#if related}<a
 							href={resolve(('/' + slug) as `/${string}`)}

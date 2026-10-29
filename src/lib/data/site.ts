@@ -21,9 +21,9 @@ export const whatsappMessage =
 export const whatsappUrl = (message = whatsappMessage) =>
 	`https://wa.me/${site.whatsapp}?text=${encodeURIComponent(message)}`;
 export const homeTitle =
-	'Corporate Gifting Company in Bangalore | OfNeeds';
+	'Corporate Gifting Company in Bangalore | Branded Merchandise | OfNeeds';
 export const homeDescription =
-	'OfNeeds supplies corporate gifts, employee welcome kits and branded merchandise in Bangalore and Bengaluru, with custom branding and delivery across India.';
+	'OfNeeds is a corporate gifting company in Bangalore offering customized gifts, employee welcome kits, branded merchandise, apparel and bulk gifting solutions across India.';
 export const serviceAreas = [
 	'Whitefield',
 	'Electronic City',

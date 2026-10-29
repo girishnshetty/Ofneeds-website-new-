@@ -17,6 +17,25 @@ For the existing local preview checkout, run the same npm commands from `ofneeds
 
 Open http://127.0.0.1:5174/. Stop a foreground server with Ctrl+C.
 
+## Buyer workspace and enquiry journeys
+
+Open `/workspace` for the browser-based procurement planner. Create a request from the website's quote shortlist or add custom items, enter estimates and locations, save a draft and request local review. The Requester/Reviewer switch previews both sides of the flow. Reviewer decisions require complete item estimates and enough remaining planning budget. Changes can be requested with a note, revised and resubmitted. Approved requests support sequential, manually confirmed fulfilment notes. Search, status filters, activity history and CSV export are included.
+
+Records use `localStorage` under `ofneeds-procurement-v1`; website shortlists still use their existing tab/session storage. Sample requests load only when explicitly chosen in an empty workspace. Sample amounts and progress are fictional. No order, payment, reviewer notification or supplier instruction is created by the planner. It has no shared accounts, authenticated approver permissions, durable server database, live shipping feed or invoicing service. `/workspace` is excluded from the sitemap and marked `noindex`.
+
+The homepage includes an original workspace introduction and gift-card sourcing enquiry. No brand count, instant issuance or voucher availability is asserted. The enquiry component now distinguishes buyers, suppliers/brands and other enquiries. The audience is validated server-side and included in the optional receiver payload as `enquiryType`; supplier/other enquiries may have `quantity: null`. The existing Tally path remains available for buyer enquiries. With the direct receiver unconfigured, the brief builder prepares a WhatsApp message for the visitor to review and send.
+
+Validation:
+
+```powershell
+npm.cmd run check
+npm.cmd test
+node tests/site-smoke.mjs http://127.0.0.1:5174
+node tests/enquiry-audiences-integration.mjs
+```
+
+`tests/enquiry-audiences-integration.mjs` starts an isolated local dev server on 5181 and a local receiver; it never uses the production lead receiver. The local browser QA script `tests/workspace-browser.mjs` uses this workstation's bundled Playwright and installed Chrome; adjust those paths on other machines. It exercises request review, budget enforcement, persistence, responsive layouts, export and audience-specific briefs without sending any external messages. See `docs/DEALBERG-FEATURE-REVIEW.md` for scope and limitations.
+
 ## Build and test
 
 ```powershell
@@ -77,3 +96,16 @@ npm.cmd test
 ```
 
 Original assets are retained. New `/media/` URLs are content hashed; keep the generated manifest and media files together. `customHttp.yml` prepares their Amplify cache headers; validate actual headers after deployment and merge any existing console configuration.
+
+## Gift-card enquiries — India
+
+Visit `/gift-cards` to browse all 323 reference gift-card listings (314 distinct names) with brand search, category filters, sorting and pagination, and build a bulk sourcing brief. Buyers can choose listed INR denominations, quantities and an occasion for up to five options, then continue to the existing contact form. Custom brand preferences remain available. All 323 listings include locally served brand logos, with a four-column desktop layout and responsive cards. The tab's session storage retains the brief separately from the physical-product shortlist.
+
+Brand availability and terms require confirmation. This is an enquiry flow; payment, voucher issuance and redemption are not connected. See [docs/GIFT-CARDS.md](docs/GIFT-CARDS.md) for scope, source and validation.
+
+Run `node tests/gift-cards-browser.mjs` against a running local preview at `http://127.0.0.1:5174/` for the browser flow. It uses the bundled Playwright runtime and installed Windows Chrome, prepares a WhatsApp draft and never sends it.
+
+
+Gift-card brand SEO pages are available at `/gift-cards/[slug]` (for example `/gift-cards/starbucks`). All 323 listings map to 312 canonical brand/product pages, with source logos, denominations, quotation controls, unique SEO data and sitemap links. The A–Z directory and card headings provide ordinary crawlable links. Run `node tests/gift-card-brand-seo.mjs` against the local preview to check every new page. See `docs/GIFT-CARD-SEO.md` for publication/indexing steps.
+
+The corporate gifting SEO brief is implemented across the existing homepage and 30 service/product landing pages, with a grouped buying directory and 511 requested keyword assignments. See [the architecture review](docs/SEO-ARCHITECTURE-2026-10-29.md) and `marketing/seo-architecture-2026-10-29.csv` / `.json` for URLs, metadata, content and FAQ data. Changes remain local until published to the existing production domain.

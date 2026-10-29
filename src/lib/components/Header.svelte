@@ -33,6 +33,7 @@
 	<div class="topbar">
 		<div class="container topbar-inner">
 			<span>Thoughtful gifts. Lasting impressions.</span>
+			<a class="workspace-top-link" href={resolve('/workspace')} onclick={close}>Buyer workspace <Icon name="grid" size={12} /></a>
 			<div class="topbar-phones">
 				{#each contactNumbers as phone (phone.href)}
 					<a href={'tel:' + phone.href}>{phone.display}</a>
@@ -54,6 +55,7 @@
 						>Explore all corporate gifts <Icon size={16} /></a
 					>
 					<div class="dropdown-grid">
+						<a href={resolve('/gift-cards')} aria-current={page.url.pathname === '/gift-cards' ? 'page' : undefined} onclick={close}>Gift Cards · India</a>
 						{#each categories as category (category.href)}<a href={resolve((category.href) as `/${string}`)} onclick={close}
 								>{category.title}</a
 							>{/each}
@@ -77,3 +79,8 @@
 		>
 	</div>
 </header>
+
+<style>
+ .workspace-top-link { display:inline-flex; align-items:center; gap:7px; min-height:32px; }
+ @media(max-width:760px) { .workspace-top-link { flex-shrink:0; margin-right:15px; font-size:10px; } .topbar-phones a:last-child { display:none; } .topbar-phones { justify-content:flex-end; } }
+</style>

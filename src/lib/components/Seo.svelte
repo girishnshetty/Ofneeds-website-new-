@@ -3,8 +3,9 @@
     import { site } from '$lib/data/site';
     import { seoFor } from '$lib/data/seo-pages';
     import { canonical, jsonLdScript, organization, website, breadcrumbs, faqSchema, type Schema } from '$lib/seo';
-    let { title, description, extra = [], crumb, noindex = false, image }: {
+    let { title, description, extra = [], crumb, trail, noindex = false, image }: {
         title: string; description: string; extra?: Schema[]; crumb?: string; noindex?: boolean;
+        trail?: { name: string; path: string }[];
         image?: { src: string; srcset?: string; width: number; height: number; alt: string };
     } = $props();
     const profile = $derived(noindex ? undefined : seoFor(page.url.pathname));
@@ -25,7 +26,7 @@
             isPartOf: { '@id': site.origin + '/#website' },
             about: { '@id': site.origin + '/#organization' },
             ...(profile?.service ? { mainEntity: { '@id': url + '#service' } } : {}) },
-        breadcrumbs(crumb ? [{ name: 'Home', path: '/' }, { name: crumb, path: page.url.pathname }] : [{ name: 'Home', path: '/' }]),
+        breadcrumbs(trail ?? (crumb ? [{ name: 'Home', path: '/' }, { name: crumb, path: page.url.pathname }] : [{ name: 'Home', path: '/' }])),
         ...(profile?.service ? [{ '@type': 'Service', '@id': url + '#service', name: profile.service,
             serviceType: profile.service, description: resolvedDescription, url,
             provider: { '@id': site.origin + '/#organization' },

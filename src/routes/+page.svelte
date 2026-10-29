@@ -12,6 +12,7 @@
 	import CaseStudies from '$lib/components/CaseStudies.svelte';
 	import Brands from '$lib/components/Brands.svelte';
 	import ProductGrid from '$lib/components/ProductGrid.svelte';
+	import EnterpriseSolutions from '$lib/components/EnterpriseSolutions.svelte';
 	import { productSelections, budgetRanges } from '$lib/data/products';
 
 	import {
@@ -30,7 +31,7 @@
 	<div class="container enterprise-hero-grid">
 		<div class="hero-copy">
 			<p class="eyebrow">OfNeeds · Corporate gifting &amp; merchandise</p>
-			<h1>Corporate Gifting<br /><span>Made Simple.</span></h1>
+			<h1>Corporate Gifting &amp;<br /><span>Branded Merchandise</span><br />in Bangalore.</h1>
 			<p class="hero-description">
 				Premium employee welcome kits, customized corporate gifts and branded merchandise for businesses across Bangalore and India.
 			</p>
@@ -56,7 +57,7 @@
 		<div class="section-heading">
 			<div>
 				<p class="eyebrow">One partner. A world of possibilities.</p>
-				<h2>Corporate Gifting for<br /> Every Requirement</h2>
+				<h2>Customized Corporate Gifts<br />for Employees, Clients &amp; Events</h2>
 			</div>
 			<p>
 				From a warm welcome to a well-earned thank you. Find the right products for every business
@@ -64,6 +65,7 @@
 			</p>
 		</div>
 		<CategoryGrid />
+		<a class="text-link" href={resolve('/corporate-gifts#gifting-directory')} style="margin-top: 24px">Explore all corporate gifting solutions <Icon size={18} /></a>
 		<a class="button button-outline" href={resolve("/catalogues")} style="margin-top: 28px">Browse &amp; Download Catalogues <Icon size={18} /></a>
 	</div>
 </section>
@@ -88,7 +90,7 @@
 		</div>
 	</div>
 </section>
-<section class="section process-section">
+<section id="how-it-works" class="section process-section">
 	<div class="container">
 		<div class="section-heading">
 			<div>
@@ -108,12 +110,13 @@
 		</ol>
 	</div>
 </section>
+<EnterpriseSolutions />
 <CaseStudies /><Brands compact /><GiftingSolutions /><Testimonials excludeStoryQuotes />
 <section class="section local-section">
 	<div class="container local-layout">
 		<div>
 			<p class="eyebrow">Rooted in Bengaluru. Reaching across India.</p>
-			<h2>Corporate Gifting<br /> Company in Bangalore</h2>
+			<h2>Bulk Corporate Gifting<br />Across India</h2>
 			<a class="text-link" href={resolve("/corporate-gifting-bangalore")}
 				>Gifting for your Bengaluru team <Icon size={18} /></a
 			>

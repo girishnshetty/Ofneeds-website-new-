@@ -1,0 +1,112 @@
+import { createRequire } from 'node:module';
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+const runtime = createRequire('C:/Users/GirisH/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/package.json');
+const { chromium } = runtime('playwright');
+const browser = await chromium.launch({ executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe', headless:true, args:['--disk-cache-size=1','--media-cache-size=1','--disable-gpu-shader-disk-cache','--disable-background-networking'] });
+const context = await browser.newContext({ viewport:{width:1440,height:1000} });
+const page = await context.newPage();
+const errors=[];
+page.on('pageerror',error=>errors.push(error.message));
+const base='http://127.0.0.1:5174';
+fs.mkdirSync('output/dealberg-review',{recursive:true});
+try {
+ await page.goto(base+'/workspace');
+ await page.getByRole('button',{name:'Create first request',exact:true}).waitFor();
+ await page.getByRole('button',{name:'Create first request',exact:true}).click();
+ await page.getByLabel('Request title',{exact:true}).fill('QA welcome kit programme');
+ await page.getByLabel('Department',{exact:true}).fill('People Operations');
+ await page.getByLabel('Reviewer name or team').fill('Procurement review');
+ await page.getByLabel('Delivery locations',{exact:true}).fill('Bengaluru — 25 kits');
+ await page.getByLabel('Quantity',{exact:true}).fill('25');
+ await page.getByLabel('Estimate each (₹)',{exact:true}).fill('100');
+ await page.getByRole('button',{name:'Add item',exact:true}).click();
+ await page.getByRole('button',{name:'Request local review',exact:true}).click();
+ await page.getByRole('heading',{name:'QA welcome kit programme',exact:true}).waitFor();
+ await page.reload();
+ await page.getByRole('heading',{name:'QA welcome kit programme',exact:true}).waitFor();
+ await page.getByRole('button',{name:/Reviewer view/}).click();
+ await page.getByLabel('Planning budget (₹)').fill('100');
+ await page.getByRole('button',{name:'Save budget',exact:true}).click();
+ assert.equal(await page.getByRole('button',{name:'Record approval',exact:true}).isDisabled(),true,'Over-budget request must not be approvable');
+ await page.getByLabel('Planning budget (₹)').fill('10000');
+ await page.getByRole('button',{name:'Save budget',exact:true}).click();
+ await page.getByRole('button',{name:'Request changes',exact:true}).click();
+ await page.getByRole('status').filter({hasText:'Add a note explaining'}).waitFor();
+ await page.getByLabel('Review note').fill('Please confirm branding before approval.');
+ await page.getByRole('button',{name:'Request changes',exact:true}).click();
+ await page.getByRole('button',{name:'Requester view',exact:true}).click();
+ await page.getByRole('button',{name:'Edit request',exact:false}).click();
+ await page.getByLabel('Branding & other requirements',{exact:true}).fill('Branding included in planning brief.');
+ await page.getByRole('button',{name:'Request local review',exact:true}).click();
+ await page.getByRole('button',{name:/Reviewer view/}).click();
+ await page.getByRole('button',{name:'Record approval',exact:true}).click();
+ await page.getByRole('heading',{name:'Fulfilment notes',exact:true}).waitFor();
+ await page.getByLabel('Supplier update or reference').fill('QA manual confirmation only');
+ await page.getByRole('button',{name:'Record: Sourcing',exact:true}).click();
+ await page.getByText('Manually recorded: Sourcing',{exact:true}).waitFor();
+ assert.match(await page.getByRole('link',{name:/Discuss this brief on WhatsApp/}).getAttribute('href'),/^https:\/\/wa\.me\//);
+ const [download] = await Promise.all([page.waitForEvent('download'),page.getByRole('button',{name:'Export CSV',exact:false}).click()]);
+ assert.equal(download.suggestedFilename(),'ofneeds-procurement.csv');
+ await page.getByRole('searchbox',{name:'Search requests'}).fill('no matches here');
+ await page.getByRole('heading',{name:'No matching requests'}).waitFor();
+ await page.getByRole('button',{name:'Clear filters'}).click();
+ await page.evaluate(()=>window.scrollTo({top:0,behavior:'instant'}));
+ await page.screenshot({path:'output/dealberg-review/workspace-desktop.png',fullPage:true});
+ for(const width of [320,375,768,1440]) {
+  await page.setViewportSize({width,height:900});
+  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth <= innerWidth+1),'Workspace fits '+width+'px');
+ }
+ await page.setViewportSize({width:375,height:900});
+ await page.evaluate(()=>window.scrollTo({top:0,behavior:'instant'}));
+ await page.screenshot({path:'output/dealberg-review/workspace-mobile.png',fullPage:true});
+ await page.getByRole('button',{name:'New request',exact:false}).click();
+ for(const width of [320,375,768,1440]) {
+  await page.setViewportSize({width,height:900});
+  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth <= innerWidth+1),'Request editor fits '+width+'px');
+ }
+ await page.goto(base+'/contact?interest=gift-cards#quote');
+ assert.match(await page.getByLabel('Product requirement',{exact:false}).inputValue(),/Gift card sourcing enquiry/);
+ await page.getByRole('radio',{name:'Supplier / brand',exact:true}).check();
+ await page.getByRole('heading',{name:'Introduce your products to OfNeeds'}).waitFor();
+ assert.equal(await page.getByLabel('Approximate Recipients / Units').count(),0);
+ await page.getByLabel('Full Name',{exact:false}).fill('QA Supplier');
+ await page.getByLabel('Company Name',{exact:false}).fill('Example Test Company');
+ await page.getByLabel('Work Email',{exact:false}).fill('qa@example.test');
+ await page.getByLabel('Contact Number',{exact:false}).fill('9000000000');
+ await page.getByLabel('City / coverage',{exact:false}).fill('Bengaluru');
+ await page.getByLabel('Product range & capabilities',{exact:false}).fill('Notebook supplier — automated local test');
+ await page.getByRole('button',{name:'Prepare WhatsApp Enquiry',exact:false}).click();
+ await page.getByRole('heading',{name:'Your brief is ready to review.'}).waitFor();
+ const link=await page.getByRole('link',{name:'Open WhatsApp with My Brief',exact:false}).getAttribute('href');
+ assert.match(decodeURIComponent(link),/Enquiry type: supplier/);
+ assert.doesNotMatch(decodeURIComponent(link),/Approximate recipients/);
+ await page.getByRole('radio',{name:'Other enquiry',exact:true}).check();
+ await page.getByRole('heading',{name:'Let’s start a conversation'}).waitFor();
+ await page.goto(base);
+ await page.getByRole('heading',{name:'Every request. A little more organised.',exact:false}).waitFor();
+ for(const width of [320,375,768,1440]) {
+  await page.setViewportSize({width,height:900});
+  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth <= innerWidth+1),'Homepage fits '+width+'px');
+ }
+ await page.setViewportSize({width:1440,height:1000});
+ await page.locator('#procurement').screenshot({path:'output/dealberg-review/customer-features.png',style:'.site-header,.skip-link,.whatsapp-float {visibility:hidden!important}'});
+ await page.setViewportSize({width:375,height:900});
+ await page.locator('#procurement').screenshot({path:'output/dealberg-review/customer-features-mobile.png',style:'.site-header,.skip-link,.whatsapp-float {visibility:hidden!important}'});
+ const importContext=await browser.newContext({viewport:{width:1440,height:1000}});
+ try {
+  const importPage=await importContext.newPage();
+  await importPage.goto(base+'/products');
+  await importPage.evaluate(()=>sessionStorage.setItem('ofneeds-quote-v1',JSON.stringify([{id:'notebooks',quantity:7},{id:'welcome-kit-1',quantity:10}])));
+  await importPage.goto(base+'/contact?interest=procurement#quote');
+  await importPage.getByRole('link',{name:'Plan this shortlist in the buyer workspace',exact:false}).click();
+  await importPage.getByRole('button',{name:'Create first request',exact:true}).click();
+  assert.equal(await importPage.getByRole('spinbutton',{name:'Quantity for Notebooks',exact:true}).inputValue(),'7');
+  const importedRows=importPage.locator('.workspace-table-wrap tbody tr');
+  assert.equal(await importedRows.count(),2);
+  assert.equal(await importedRows.nth(1).getByRole('spinbutton').first().inputValue(),'10');
+  assert.equal(await importedRows.nth(1).getByRole('spinbutton').nth(1).inputValue(),'599');
+ } finally { await importContext.close(); }
+ assert.deepEqual(errors,[],'No browser runtime errors');
+ console.log('PASS: request create/reload/revise/review, budget guard, manual progress, CSV, filters, audience forms, gift-card enquiry and 4 responsive widths. No external submissions were made.');
+} finally { await context.close(); await browser.close(); }

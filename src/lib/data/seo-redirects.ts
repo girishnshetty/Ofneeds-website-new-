@@ -1,4 +1,9 @@
 export const seoRedirects: Record<string, string> = {
+  "giftcard": "/gift-cards",
+  "giftcards": "/gift-cards",
+  "gift-card": "/gift-cards",
+  "gift-vouchers": "/gift-cards",
+  "corporate-gift-cards": "/gift-cards",
   "employee-gifting": "/employee-gifts",
   "welcome-kits": "/employee-welcome-kits-bangalore",
   "corporate-tshirts": "/corporate-tshirts-bangalore",

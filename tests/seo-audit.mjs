@@ -91,6 +91,53 @@ for (const path of ['/not-a-real-page', '/brands/unverified-brand', '/insights/u
     const response = await fetch(base + path); assert.equal(response.status, 404);
     assert.ok((await response.text()).includes('noindex, follow'));
 }
+const giftHtml = await (await fetch(base + '/gift-cards')).text();
+const directory = giftHtml.match(/<section class="section gc-brand-directory"[^>]*>(.*?)<\/section>/s)?.[1];
+assert.ok(directory, 'Gift-card directory is present in server-rendered HTML');
+const giftCatalogue = JSON.parse(await readFile(new URL('../src/lib/data/gift-card-catalogue.json', import.meta.url), 'utf8'));
+const giftNames = [...new Map(giftCatalogue.listings.map(item => [item.name.toLowerCase(), item.name])).values()];
+assert.equal([...directory.matchAll(/<a\b/g)].length, giftNames.length, 'Every distinct name is readable without running JavaScript');
+const directoryText = decode(directory.replace(/<[^>]+>/g, ' '));
+for (const name of giftNames) assert.ok(directoryText.includes(name), name + ' in readable brand directory');
+assert.match(decode(giftHtml.match(/<h1\b[^>]*>(.*?)<\/h1>/s)[1].replace(/<[^>]+>/g, ' ')), /Corporate gift cards/i);
+const giftSchemas = [...giftHtml.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/gs)].flatMap(match => JSON.parse(match[1])['@graph']);
+const giftList = giftSchemas.find(schema => schema['@type'] === 'ItemList');
+assert.equal(giftList.numberOfItems, giftNames.length);
+assert.equal(giftList.itemListElement.length, giftNames.length);
+assert.ok(!giftSchemas.some(schema => ['Product', 'Offer', 'AggregateRating'].includes(schema['@type'])), 'Sourcing enquiries do not invent stock, selling prices or reviews');
+for (const alias of ['/giftcard', '/giftcards', '/gift-card', '/gift-vouchers', '/corporate-gift-cards']) {
+    const response = await fetch(base + alias, { redirect: 'manual' });
+    assert.equal(response.status, 308, alias + ' permanent redirect');
+    assert.equal(response.headers.get('location'), '/gift-cards');
+}
+const campaignHtml = await (await fetch(base + '/gift-cards?utm_source=seo-check')).text();
+assert.ok(campaignHtml.includes('rel="canonical" href="' + origin + '/gift-cards"'), 'Tracking parameters use the clean canonical URL');
+// The public buying hub must expose every canonical service guide without JavaScript.
+const architecture = JSON.parse(await readFile(new URL('../marketing/seo-architecture-2026-10-29.json', import.meta.url), 'utf8'));
+assert.equal(architecture.pages.length, architecture.corePages);
+const hub = await (await fetch(base + '/corporate-gifts')).text();
+const hubDirectory = hub.match(/<section id="gifting-directory"[^>]*>(.*?)<\/section>/s)?.[1];
+assert.ok(hubDirectory, 'Readable corporate gifting directory');
+const hubLinks = new Set([...hubDirectory.matchAll(/<a\b[^>]*href="([^"]+)"/g)].map(m => new URL(decode(m[1]), base + '/corporate-gifts').pathname));
+for (const entry of architecture.pages) {
+    assert.equal(entry.title, profiles[entry.path].title, 'Exported architecture matches live metadata');
+    assert.equal(entry.description, profiles[entry.path].description);
+    if (!['/', '/corporate-gifts'].includes(entry.path)) assert.ok(hubLinks.has(entry.path), entry.path + ' linked from hub');
+    for (const alias of entry.aliases) {
+        const response = await fetch(base + alias, { redirect: 'manual' });
+        assert.equal(response.status, 308, alias);
+        assert.equal(response.headers.get('location'), entry.path);
+        assert.ok(!sitemap.includes(`<loc>${origin + alias}</loc>`), 'Aliases stay out of sitemap');
+    }
+}
+assert.ok(hubLinks.has('/gift-cards'), 'Gift-card catalogue is part of buying architecture');
+const procurement = await (await fetch(base + '/hr-procurement-gifting')).text();
+assert.ok(/<table\b/.test(procurement) && procurement.includes('scope="row"'), 'Accessible procurement comparison');
+const homepage = await (await fetch(base + '/')).text();
+assert.match(decode(homepage.match(/<h1\b[^>]*>(.*?)<\/h1>/s)[1].replace(/<[^>]*>/g, ' ')).replace(/\s+/g,' '), /Corporate Gifting & Branded Merchandise in Bangalore/);
+const requestKeywords = csv(await readFile(new URL('../marketing/seo-request-keywords-2026-10-29.csv', import.meta.url), 'utf8'));
+assert.ok(requestKeywords.length > 500);
+for (const entry of requestKeywords) assert.ok(profiles[new URL(entry['Canonical URL']).pathname], entry['Requested keyword'] + ' has a canonical destination');
 const loadCsv = async (name) => csv(await readFile(new URL('../marketing/' + name, import.meta.url), 'utf8'));
 const keywords = await loadCsv('sem-keywords.csv'), ads = await loadCsv('sem-responsive-search-ads.csv'), plan = await loadCsv('sem-campaign-plan.csv');
 for (const keyword of keywords) {

@@ -10,7 +10,7 @@ export const organization: Schema = {
     email: site.email, telephone: site.phoneLink,
     address: { '@type': 'PostalAddress', addressLocality: 'Bengaluru', addressRegion: 'Karnataka', addressCountry: 'IN' },
     areaServed: { '@type': 'Country', name: 'India' },
-    knowsAbout: ['Corporate gifting', 'Employee welcome kits', 'Branded merchandise', 'Corporate apparel', 'Custom gift sets'],
+    knowsAbout: ['Corporate gifting', 'Corporate gift cards', 'Employee reward vouchers', 'Employee welcome kits', 'Branded merchandise', 'Corporate apparel', 'Custom gift sets'],
     contactPoint: contactNumbers.map((phone) => ({
         '@type': 'ContactPoint', telephone: phone.href, contactType: 'sales', email: site.email,
         areaServed: 'IN', availableLanguage: 'English'

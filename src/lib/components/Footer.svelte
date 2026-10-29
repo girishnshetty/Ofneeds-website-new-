@@ -5,6 +5,9 @@
 		{
 			name: 'Company',
 			links: [
+				['Buyer Workspace', '/workspace'],
+				['How It Works', '/#how-it-works'],
+				['Gift Cards', '/gift-cards'],
 				['Explore Products', '/products'],
 				['About Us', '/about'],
 				['Clients', '/clients'],
@@ -15,6 +18,7 @@
 		{
 			name: 'Corporate Gifts',
 			links: [
+				['All Gifting Solutions', '/corporate-gifts#gifting-directory'],
 				['Welcome Kits', '/employee-welcome-kits-bangalore'],
 				['Apparel', '/corporate-apparel'],
 				['Drinkware', '/corporate-drinkware'],

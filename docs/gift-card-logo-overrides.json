@@ -1,0 +1,14 @@
+{
+  "12569": {
+    "name": "Innovist",
+    "url": "https://innovist.com/cdn/shop/files/Final_Innovist_Logo-04.png?v=1706178919&width=300",
+    "sourcePage": "https://innovist.com/",
+    "reason": "The reference listing has an empty image URL; use the official brand website's logo."
+  },
+  "1121": {
+    "name": "Domino's Pizza",
+    "url": "https://cdn2.gyftr.com/common/logo/DOMINO%27S_19g617mnya7cr6?width=150",
+    "sourcePage": "https://giftcardxpert.com/site/gifts",
+    "reason": "The original reference image returns HTTP 500; use the working Domino's logo from the other Domino's listing in the same reference catalogue."
+  }
+}
